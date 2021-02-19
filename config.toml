@@ -1,13 +1,14 @@
-baseurl = "/"
+baseurl = "https://example.com"
 languageCode = "en-us"
 title = "David Reinstein"
-theme = "hugo-lithium"
+theme = "researcher"
 googleAnalytics = ""
 disqusShortname = ""
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
+math = true # Enable Katex globally
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
+    "/" = "/:filename"
 
 [[menu.main]]
     name = "About"
@@ -15,9 +16,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\
 [[menu.main]]
     name = "CV"
     url = "/vitae/"
+
 [[menu.main]]
     name = "GitHub"
     url = "https://github.com/daaronr"
+[[menu.main]]
+    name = "Scholar"
+    url = "https://scholar.google.com/citations?user=ZGVPBmUAAAAJ&hl=en&oi=ao"
 [[menu.main]]
     name = "Twitter"
     url = "https://twitter.com/GivingTools"
@@ -35,11 +40,4 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\
     MathJaxVersion = "2.7.5"
 
     # path to the favicon, under "static"
-    favicon = "favicon.ico"
-
-    [params.logo]
-    url = "logo.png"
-    width = 50
-    height = 50
-    alt = "Logo"
-
+    favicon = "favicon.ico" # Icon for chrome tabs
