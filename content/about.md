@@ -77,5 +77,7 @@ Peer review is great (and *peer evaluation* is better), but in the 2020's  we ca
 \
 \
 
-*Ironically, I'm "humbled" by the honor of "winning" grants (so humbled that I feel compelled to announce it on my CV [here]())* 
+## Other projects and affiliations
+
+*Ironically, I'm "humbled" by the honor of "winning" grants (so humbled that I feel compelled to announce it on my CV [here](#grants))* 
 
