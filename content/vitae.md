@@ -19,9 +19,9 @@ title: CV for Dr. David Reinstein
 
 *In 2021 I left my secure academic post:*
 
-- to pursue greater impact as a researcher at Rethink Priorities, and
+1. To pursue greater impact as a researcher at [Rethink Priorities](https://www.rethinkpriorities.org/our-team), a think tank "dedicated to figuring out the best ways to make the world a better place." RP is closely tied to the [Effective Altruism](https://en.wikipedia.org/wiki/Effective_altruism) movement.
 
-- to build tools and programs promoting open, collaborative, and robust  research, as well as teaching, learning, and training outside of traditional university degree schemes/
+2. To build tools and programs promoting open, collaborative, and robust  research, as well as teaching, learning, and research training outside of traditional university degree schemes.
 
 \
 
