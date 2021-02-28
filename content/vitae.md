@@ -36,12 +36,10 @@ title: CV for Dr. David Reinstein
 
 (iii) building and measuring tools and policies aiming to improve social outcomes.
 
-I combine microeconomic modeling, analysis of observational data, and field experiments and trials to bring evidence to a variety of interconnected questions, and provide tools for philanthropists, nonprofit organisations, governments, and managers
-
+I combine microeconomic modeling, analysis of observational data, and field experiments and trials to bring evidence to a variety of interconnected questions, and provide tools for philanthropists, nonprofit organisations, governments, and managers.
 
 I work to produce and encourage open and collaborative research, learning, and positive impact outside of traditional academic settings, and to share tools, skills, and insights from Economics, Psychology, Experimental Design, Statistics and Data Science.
 
-I combine microeconomic modeling, analysis of observational data, and field experiments and trials to bring evidence to a variety of interconnected questions, and build innovative policy and management tools. I work with businesses, nonprofit organizations, and government agencies to improve people's lives using insights from these fields, employing rigorous and efficient experimentation and data-analysis.
 
 
 <br>
