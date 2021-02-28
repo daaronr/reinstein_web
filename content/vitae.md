@@ -5,11 +5,11 @@ title: CV for Dr. David Reinstein
 
 # Dr. David Reinstein
 
-[Distinguished Researcher, Rethink Priorities](https://www.rethinkpriorities.org/our-team)
-Visiting Assistant Professor, University of Maastricht
+**[Distinguished Researcher, Rethink Priorities](https://www.rethinkpriorities.org/our-team)**
 
-Email: daaronr@gmail.com \
-Phone: +44 (0)7510303648, +14243284343
+**Visiting Assistant Professor, University of Maastricht**
+
+*[Download pdf CV here](reinstein_cv_pdf.pdf)* - *[Link to web CV (this page)](https://daaronr.github.io/markdown-cv/)*
 
 
 **Background:** I am an Economist with 25 years experience at UC Berkeley, the University of Essex and the [University of Exeter](http://business-school.exeter.ac.uk/about/people/profile/index.php?web_id=David_Reinstein), and in other consulting and teaching roles. My work involved performing [economic research](#pubs), [sharing research tools](https://daaronr.github.io/writing_econ_research/about-this-work.html), and disseminating and promoting the [impact of my research](#projects); as well as [teaching](#teaching) (at undergraduate, postgraduate, and professional/executive levels), research supervision, and educational administration and [entrepreneurship](#impact). I completed my Ph.D. under the supervision of Professor Emmanuel Saez at the University of California, Berkeley in 2006. I have [published a range of peer-reviewed research](#pubs) and done consulting and impact work involving behavioral economics, lab, field (A/B testing) and natural experimentation, panel-data econometrics and data science, game theory and mechanism design, and the practical applications of these. I am an active supporter of [open, robust, replicable and collaborative science](https://www.bitss.org/people/david-reinstein/), of the use of computer science and data science tools in Economics (e.g., [R-Markdown/Bookdown dynamic documents](https://daaronr.github.io/writing_econ_research/about-this-work.html)), and of [effective charitable giving](https://daaronr.github.io/ea_giving_barriers/outline.html).
@@ -158,7 +158,7 @@ Advisory boards, collaboration and affiliations: Donor’s Voice [Academic advis
 
 "[The Influence of Expert Reviews on Consumer Demand for Experience Goods: A Case Study of Movie Critics](https://www.researchgate.net/publication/4992942_The_Influence_of_Expert_Reviews_on_Consumer_Demand_for_Experience_Goods_A_Case_Study_of_Movie_Critics)" with Professor C. M. Snyder, Journal of Industrial Economics, Vol. 53, No. 1, pp. 27-51, March 2005
 
-### Work in progress and in submission
+### Working papers and ongoing projects
 
 "[Listen to the market, hear the best policy decision, but don’t always choose it](https://ore.exeter.ac.uk/repository/handle/10871/36180)," (with Joon Song \[SKKU\])
 
