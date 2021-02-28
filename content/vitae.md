@@ -80,13 +80,14 @@ Developing innovative solutions to business and social problems using insights f
 
 ## Positions
 
-`Jan 2021 - Present`
+`2021 - Present`
 **[Distinguished Researcher, Rethink Priorities](https://www.rethinkpriorities.org/our-team)**
 
+`2021 - Present`
 **Visiting Assistant Professor, University of Maastricht**
 
-`Jan. 2016 - Feb. 2021`
-**Senior Lecturer, Department of Economics, University of Exeter Business School**
+`2016 - 2021`
+Senior Lecturer, Department of Economics, University of Exeter Business School.
 
 `2006-2015`
 Lecturer (Assistant Professor equivalent), permanency granted 2011, Department of Economics, University of Essex.
