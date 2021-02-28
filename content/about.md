@@ -13,53 +13,69 @@ title: About
 PhD (University of California, Berkeley, Economics) 
 
 
-[Distinguished Researcher, Rethink Priorities](https://www.google.com/search?q=reinstein+rethink&oq=reinstein+rethink&aqs=chrome..69i57j69i61l3.4138j0j7&sourceid=chrome&ie=UTF-8)
-
-Visiting Assistant Professor, University of Maastricht 
+[Distinguished Researcher, Rethink Priorities](https://www.rethinkpriorities.org/our-team) and visiting Assistant Professor, University of Maastricht 
   
 
 \
 \
   
 
-I work to produce and encourage open and collaborative research, learning, and positive impact outside of traditional settings. I focus on charitable giving and effectiveness, measuring social, psychological, and instituitional influences on life choices and consumer behavior. I combine microeconomic modeling, analysis of observational data, and field experiments and trials to bring evidence to a variety of interconnected questions, and build innovative policy and management tools.
+## My research and impact work focuses on
 
+(i) the determinants and motivators of (effective) charitable giving,
 
+(ii) measuring social, psychological, and  institutional influences on life choices and consumer behavior, and
 
-\
+(iii) building and measuring tools and policies aiming to improve social outcomes. 
 
+I combine microeconomic modeling, analysis of observational data, and field experiments and trials to bring evidence to a variety of interconnected questions, and provide tools for philanthropists, nonprofit organisations, governments, and managers
 
-**I published papers** in traditional academic journals (CV), such as...
-
-*Observational/causal econometrics*: “The Influence of Expert Reviews on Consumer Demand for Experience Goods: A Case Study of Movie Critics” (Journal of Industrial Economics, 2005), “Does One Contribution Come at the Expense of Another? Empirical Evidence on Substitution Between Charitable Donations” (BEJEAP Advances, 2011)
-
-
-*Field and lab experiments*:  “Decomposing Desert and Tangibility Effects in a Charitable Giving Experiment” (Exp. Econ., 2012),  “Ex-ante Commitments to `Give if you Win’ Exceed Donations After a Win” (Journal of Public Economics, 2018), 
-
-*Applied micro and behavioral theory:* “Losing Face” (Oxford Economic Papers, 2018), “Anonymous Rituals” (JEBO, 2012), “Efficient Consumer Altruism and Fair Trade Products” (JEMS, 2012)
-
+I work to produce and encourage open and collaborative research, learning, and positive impact outside of traditional settings.
 
 \
+\ 
 
-Peer review is great (and *peer evaluation* is better), but it's the 20's and we can do better than paying Elsevier & co to "publish" static pdfs for us. <!-- link to discussion/rant here --> I'm working to research/write/gain-critical-feedback in dynamic, collaborative, open/transparent, and continuously-updated formats:
+
+## I published papers... 
+
+... in traditional academic journals such as the Journal of Public Economics,  Journal of Economics and Management Strategy, and Social Psychological and Personality Science. See [my CV](#publications) for a full list. These include: 
+
+*Observational/causal econometrics*: [“The Influence of Expert Reviews ... A Case Study of Movie Critics” (2005)](https://www.researchgate.net/publication/4992942_The_Influence_of_Expert_Reviews_on_Consumer_Demand_for_Experience_Goods_A_Case_Study_of_Movie_Critics), [“Does One Contribution Come at the Expense of Another?...” (2011)](https://www.researchgate.net/publication/227377867_Does_One_Charitable_Contribution_Come_at_the_Expense_of_Another)
+
+*Field and lab experiments*:  “Decomposing Desert and Tangibility Effects in a Charitable Giving Experiment” (2012),  [“Ex-ante Commitments to `Give if you Win’ Exceed Donations After a Win” (2018)](https://ore.exeter.ac.uk/repository/bitstream/handle/10871/32001/GivingProbabilityMaster1_commentsout.pdf?sequence=1&isAllowed=y) 
+
+*Applied microeconomic/behavioral theory:* [“Losing Face” (2018)](https://www.dropbox.com/s/tx4yfun1ctxuezw/LosingFace.pdf?dl=0), [“Anonymous Rituals” (2012)](https://www.sciencedirect.com/science/article/pii/S0167268111001806), [“Efficient Consumer Altruism and Fair Trade Products” (2012)](https://www.researchgate.net/publication/239768339_Efficient_Consumer_Altruism_and_Fair_Trade_Products)
+
+\
+\ 
+
+## The new way
+
+Peer review is great (and *peer evaluation* is better), but in the 2020's  we can do better than paying Elsevier&co to "publish" static pdfs for us. <!-- link to discussion/rant here --> I'm working to research/write/gain-critical-feedback in dynamic, collaborative, open/transparent, and continuously-updated formats. Below, some work-in-progress:
 
 
 <!-- Todo: put up at least one 'traditional research project in open format' here -->
 
+*A broad project of synthesis and meta-analysis:* [Increasing effective charitable giving: The puzzle, what we know, what we need to know next](https://daaronr.github.io/ea_giving_barriers/index.html)
 
-[Increasing effective charitable giving: The puzzle, what we know, what we need to know next](https://daaronr.github.io/ea_giving_barriers/index.html)
+*Reporting on an experimental research project project:* [Impact of impact treatments on giving: field experiments and synthesis](https://daaronr.github.io/dualprocess/)
 
-[Innovations in Fundraising](innovationsinfundraising.org) 
 
-[Microeconomics (MSc teaching)](https://daaronr.github.io/micro-giving-pub/)
+\
 
-[Econometrics, statistics, and data science: Reinstein notes with a Micro, Behavioral, and Experimental focus]() 
+*An outreach/impact project:* [Innovations in Fundraising](innovationsinfundraising.org) 
 
 \
 \
 
-*Ironically, I'm "humbled" by the following honors* 
+*Teaching/learning and research resource 'web books', and building and sharing knowledge and notes*
 
-- Grants from the British Academy to support ongoing experimental research into social influences on giving, a BA Mobility grant, and a Data Without Borders grant to use data from the Dutch educational lottery in connection with other administrative data.
+- [Researching and writing for Economics students](https://daaronr.github.io/writing_econ_research/about-this-work.html),
+- [Microeconomics (MSc teaching)](https://daaronr.github.io/micro-giving-pub/)
+- [Statistics, econometrics, experiment and survey methods, data science: Notes](https://daaronr.github.io/metrics_discussion/introduction.html) 
 
-David is a firm believer in public outreach of academic research. He is currently working on an ESRC funded Impact Cultivation project ‘Innovations in fundraising’, building links with fundraising professionals, charities and employers for collaboration and knowledge exchange [information on partnering here]. He has presented at a variety of academic and policy conferences, including  the British Academy Policy Centre [Video here], ISPRA ERC, and ESRC ‘Generosity and Well-Being’.
+\
+\
+
+*Ironically, I'm "humbled" by the honor of "winning" grants (so humbled that I feel compelled to announce it on my CV [here]())* 
+
