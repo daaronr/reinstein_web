@@ -13,7 +13,7 @@ title: About
 PhD (University of California, Berkeley, Economics) 
 
 
-[Distinguished Researcher, Rethink Priorities](https://www.rethinkpriorities.org/our-team) and visiting Assistant Professor, University of Maastricht 
+[Distinguished Researcher, Rethink Priorities](https://www.rethinkpriorities.org/our-team) and Visiting Assistant Professor, University of Maastricht 
   
 
 \
