@@ -10,7 +10,7 @@ title: About
 **Economics, social science, data and statistics, charitable giving and effective altruism, musings**
 
 
-PhD (University of California, Berkeley, Economics) 
+PhD (University of California, Berkeley, E  conomics) 
 
 
 [Distinguished Researcher, Rethink Priorities](https://www.rethinkpriorities.org/our-team) and Visiting Assistant Professor, University of Maastricht 
@@ -18,7 +18,7 @@ PhD (University of California, Berkeley, Economics)
 
 \
 \
-  
+    
 
 ## My research and impact work focuses on
 
