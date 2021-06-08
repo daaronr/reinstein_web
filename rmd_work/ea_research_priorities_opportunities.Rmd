@@ -3,6 +3,9 @@ title: "Effective Altruism: Research Priorities and Opportunities"
 author: "David Reinstein"
 date: "`r Sys.Date()`"
 output: rolldown::scrollama_sidebar
+knit: (function(inputFile, encoding) {
+    rmarkdown::render(inputFile, encoding = encoding, output_dir = "../docs")
+  })
 ---
 
 ```{css, echo=FALSE}
@@ -304,6 +307,7 @@ open_phil_grants %>%
   .kable(caption = "Open Phil (likely) research funding, 2020") %>% 
   .kable_styling()
 )
+
 ```
 
 #  {.unnumbered}
@@ -663,7 +667,6 @@ See also: this [list of lists(https://forum.effectivealtruism.org/posts/MsNpJBzv
 
 # How research in EA differs from research in academia (motivations, how success is measured)
 
-alue 'more happy people' versus 'happier people' (population ethics)
 
 ```{r, echo=FALSE}
 
@@ -688,9 +691,27 @@ RP:
 
 # {-}
 
+```{r, echo=FALSE}
+
+knitr::include_url("https://www.getguesstimate.com/models/17702", height = "800px")
+```
+
+Money-metric impact of a random-ish sample of projects:
+
+'Multiplying the uncertain estimates of' (Bayesian):
+
+- Probability our research changes the "influence-target's" choice $\times$
+- probability this is in the right direction $\times$
+- Funds affected $\times$
+- Proportional increase in the funds' impact $\times$
+- "Counterfactual years impacted"
 
 
+Divide by project cost
 
+$\rightarrow$  "Impact per dollar spent"
+
+$\rightarrow$ Extrapolate to total value of RP 
 
 
 # Changing the game: Ideas for more productive system of peer feedback and credibility
@@ -814,11 +835,3 @@ Openphil science budget is multi-million -- 50-60 million dollars per year, not 
 If you are working in animal science, development econ, public health, psychology -- giving and messaging
 
 Human welfare: huge survey qaly and daly; neutral point on subjective well-being; Open Phil and others are willing to take the information and update it
-
-### A table
-
-```{r, echo=FALSE}
-knitr::kable(head(mtcars), caption = 'A boring table.')
-```
-
-And no chairs.
