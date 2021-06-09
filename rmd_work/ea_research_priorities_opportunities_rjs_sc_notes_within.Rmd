@@ -272,6 +272,12 @@ eas_20 <- readRDS("/Users/yosemite/githubs/ea-data/data/edited_data/eas_20.Rdata
 
 ## Navigating these slides
 
+
+Hosted [HERE](https://daaronr.github.io/reinstein_web/ea_research_priorities_opportunities_rjs_sc_notes_within.html)
+
+Also see the ‘curated links’ [HERE](https://github.com/daaronr/reinstein_web/blob/main/docs/ea_research_priorities_key_links.md)
+
+
 - Press "O" To See All Slides/Slide Map!
 
 - Columns denote 'sections'; descend a column within each section
@@ -347,7 +353,10 @@ eas_20 <- readRDS("/Users/yosemite/githubs/ea-data/data/edited_data/eas_20.Rdata
 
 - [Effective thesis project](https://effectivethesis.org/project/)
 
+- [Rethink Priorities 2020 Impact and 2021 Strategy (includes broad agenda)](https://forum.effectivealtruism.org/posts/33AnPajNYmNrdXQbj/rethink-priorities-2020-impact-and-2021-strategy)
 
+
+- [Animal Charity Evaluators research](https://animalcharityevaluators.org/research/)
 
 ## Message
 
@@ -1212,6 +1221,15 @@ See also: this [list of lists(https://forum.effectivealtruism.org/posts/MsNpJBzv
 
 </small>
 
+
+## Rethink Priorities, Happier Lives institute, Animal Charity Evaluators 
+
+[Rethink Priorities 2020 Impact and 2021 Strategy (includes broad agenda)](https://forum.effectivealtruism.org/posts/33AnPajNYmNrdXQbj/rethink-priorities-2020-impact-and-2021-strategy)
+
+
+- [Happier lives institute](https://www.happierlivesinstitute.org/research-agenda.html) research priorities
+
+- [Animal Charity Evaluators research](https://animalcharityevaluators.org/research/)
 
 
 # How research in EA differs from research in academia (motivations, how success is measured)
