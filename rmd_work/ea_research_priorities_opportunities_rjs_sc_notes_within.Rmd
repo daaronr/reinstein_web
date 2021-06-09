@@ -1426,3 +1426,20 @@ Other sciences: Existential risks (natural and human)
     - Giving and messaging
     - Much more.
 
+
+# Questions/answers from talk
+
+Short of leaving academia, how can academics optimize their impact despite academia’s limitations? (Relatedly, what of what academics tend to do is low impact and should be reconsidered?)
+ +1
+
+*Response (summarizing my vocal answer):*
+
+- Contact and work with EA orgs like Rethink Priorities and Global Priorities Institude/FHI
+- Read and consider how your work relates to the “Agendas and research questions”  of places like Open Philanthropy
+- Post and comment on places like the EA Forum
+- Think about the “Importance, tractibility, neglectedness” framework ...a
+  - and consider how you might pivot towards more important, tractible and neglected areas (e.g., working on health outcomes in larger and poorer countries/regions perhaps)
+- Make a ‘public constantly updated and readable’ version of your research and do Open Science; Explain your work with ‘public teaching’ resources integrating teaching and research.
+- If you are doing research just to ‘get a top publication’, reconsider this
+     - Consider writing the ‘second or third paper’ that provides the evidence that is needed
+- See the advice from  “80000 hours”
