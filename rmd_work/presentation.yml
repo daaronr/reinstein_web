@@ -1,0 +1,18 @@
+revealjs::revealjs_presentation:
+  self_contained: false
+  reveal_plugins: ["notes", "zoom"]
+  theme: white
+  highlight: pygments
+  transition: fade
+  smart: true
+  css: reveal.css
+  center: true
+beamer_presentation:
+  latex_engine: xelatex
+  keep_tex: yes
+  theme: metropolis
+ioslides_presentation:
+    self_contained: true
+    template: io.html
+options: knitr.table.format = "html"
+classoption: table

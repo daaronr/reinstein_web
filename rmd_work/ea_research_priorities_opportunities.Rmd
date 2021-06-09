@@ -101,6 +101,7 @@ eas_20 <- readRDS("/Users/yosemite/githubs/ea-data/data/edited_data/eas_20.Rdata
 
 ```
 
+# Outline
 # Message
 
 ![We can now do better than this vague hope!](https://www.azquotes.com/picture-quotes/quote-practical-men-who-believe-themselves-to-be-quite-exempt-from-any-intellectual-influence-john-maynard-keynes-39-75-16.jpg)
@@ -143,7 +144,7 @@ lik_priority_eas20 <- eas_20 %>%
     dplyr::select(
       starts_with("prioritize", ignore.case = FALSE), engagement_num,
       -prioritize_other
-    ) %>% 
+    ) %>%
     rename(
       "AI risk"=prioritize_ai_risks,
       "Animal welfare"=prioritize_animal_welfare,
@@ -157,7 +158,7 @@ lik_priority_eas20 <- eas_20 %>%
       "Meta (Other than EA movement building)"=prioritize_meta,
       "Nuclear security"=prioritize_nuclear_security,
       "Existential risks"=prioritize_x_risks
-    ) 
+    )
 
 title <- "Cause Prioritization EA Survey 2020"
 
@@ -167,10 +168,10 @@ title <- "Cause Prioritization EA Survey 2020"
 
 
 (
-priority_ordered_bar <- lik_priority_eas20 %>% 
-      as.data.frame() %>% 
-    select(-engagement_num) %>% 
-    likert() %>% 
+priority_ordered_bar <- lik_priority_eas20 %>%
+      as.data.frame() %>%
+    select(-engagement_num) %>%
+    likert() %>%
   plot(.,
      type="bar") +
   ggtitle(title)
@@ -187,11 +188,11 @@ priority_ordered_bar <- lik_priority_eas20 %>%
 
 (
 priority_ordered_bar_eng <- lik_priority_eas20 %>%
-  filter(engagement_num==5) %>% 
-        select(-engagement_num) %>% 
+  filter(engagement_num==5) %>%
+        select(-engagement_num) %>%
    as.data.frame() %>%
     likert() %>%
-  plot(type="bar") + 
+  plot(type="bar") +
   ggtitle(title)
 )
 ```
@@ -204,7 +205,7 @@ priority_ordered_bar_eng <- lik_priority_eas20 %>%
 
 ```{r, echo=FALSE}
 
-library(scales)    
+library(scales)
 
 research_terms <- "research|univ|study|UC|trial|scholar|fellow|macreoeconomic|rethink|study|feasibility|analysis|evaluation"
 
@@ -225,7 +226,7 @@ focus_area_names <- c(
   )
 
 
-open_phil_grants <- read.csv("https://www.openphilanthropy.org/giving/grants/spreadsheet") %>% 
+open_phil_grants <- read.csv("https://www.openphilanthropy.org/giving/grants/spreadsheet") %>%
   as_tibble() %>%
   mutate(
     amount = as.numeric(gsub('[$,]', '', Amount)),
@@ -253,13 +254,13 @@ open_phil_grants <- read.csv("https://www.openphilanthropy.org/giving/grants/spr
 
 
 (
-op_research_grants_tab <- 
-open_phil_grants %>% 
-  filter(possible_research==TRUE) %>% 
-  group_by(year) %>% 
+op_research_grants_tab <-
+open_phil_grants %>%
+  filter(possible_research==TRUE) %>%
+  group_by(year) %>%
   dplyr::summarise(total =  format(sum(amount, na.rm = TRUE), big.mark=",", scientific=FALSE), grants = n()) %>%
-  arrange(-year) %>% 
-    mutate(year=as.character(year)) %>% 
+  arrange(-year) %>%
+    mutate(year=as.character(year)) %>%
     .kable(caption = "Open Phil (likely) research funding by year")  %>%
  .kable_styling()
 )
@@ -277,7 +278,7 @@ By year and focus area:
 open_phil_grants %>%
     filter(possible_research==TRUE) %>%
     dplyr::group_by(year, focus_area) %>% # drop_na(!!yvar, !!treatvar) %>%
-    summarise(total = sum(amount_usd_k,  na.rm = TRUE)) %>% 
+    summarise(total = sum(amount_usd_k,  na.rm = TRUE)) %>%
     spread(year, total, fill=0) %>%
     arrange(-`2020`) %>%
     .kable(caption = "OpenPhil (likely research) grants by year and area, in $1000 USD") %>%
@@ -287,7 +288,7 @@ open_phil_grants %>%
 (
   op_res_grants_line <-
 open_phil_grants %>%
-  group_by(year, focus_area) %>% 
+  group_by(year, focus_area) %>%
     mutate(total = sum(amount_usd_k, na.rm = TRUE)) %>%
     ggplot() +
     aes(x = year, y = amount_usd_k, colour = focus_area) +
@@ -298,13 +299,13 @@ open_phil_grants %>%
 )
 
 (
-open_phil_grants %>% 
-  filter(possible_research==TRUE) %>% 
-  filter(year==2020) %>% 
-  group_by(Focus.Area) %>% 
+open_phil_grants %>%
+  filter(possible_research==TRUE) %>%
+  filter(year==2020) %>%
+  group_by(Focus.Area) %>%
   summarise(total = format(sum(amount, na.rm = TRUE), big.mark=",", scientific=FALSE), grants = n()) %>%
   dplyr::arrange(-grants) %>%
-  .kable(caption = "Open Phil (likely) research funding, 2020") %>% 
+  .kable(caption = "Open Phil (likely) research funding, 2020") %>%
   .kable_styling()
 )
 
@@ -358,10 +359,10 @@ Maybe 500 million USD per year in EA/adjacent donations (+ about 250 million fro
 It's not all research funding, but some of it is, and it is all *interested* in prioritization/effectiveness research.
 
 ```{=html}
-<!-- There is a large amount of  
+<!-- There is a large amount of
 Lots from tech and crypto billionaires/millionaires. Some 'bigger fish' on the line too like Elon Musk -->
 ```
-# 
+#
 
 ```{r}
 
@@ -481,7 +482,7 @@ UK academia rewards either 'REF-points publications', box-ticking accreditations
 
 In 2021 I left my secure academic post:
 
-> To pursue greater impact as a researcher at [Rethink Priorities](https://www.rethinkpriorities.org/our-team), a think tank "dedicated to figuring out the best ways to make the world a better place." RP is closely tied to the Effective Altruism movement. My research into effective charitable giving is made possible by a grant from Pan Pan Wong under the advising of Longview Philanthropy.
+> To pursue greater impact as a researcher at [Rethink Priorities](https://www.rethinkpriorities.org/our-team), a think tank "dedicated to figuring out the best ways to make the world a better place." RP is closely tied to the Effective Altruism movement. My research into effective charitable giving is made possible by a grant from an individual donor under the advising of Longview Philanthropy.
 
 > To build tools and programs promoting open, collaborative, and robust research, as well as teaching, learning, and research training outside of traditional university degree schemes.
 
@@ -662,7 +663,7 @@ See also: this [list of lists(https://forum.effectivealtruism.org/posts/MsNpJBzv
 
 # Operationalizing: 'Which research to prioritize'?
 
-'How to measure research impact? 
+'How to measure research impact?
 
 
 # How research in EA differs from research in academia (motivations, how success is measured)
@@ -675,13 +676,13 @@ knitr::include_url("https://www.getguesstimate.com/models/17702", height = "800p
 
 
 
-Academia: 
+Academia:
 
 - Publications, grants, citations, students placed in jobs, awards
 
 - You need to be the 'first to publish' on a new topic; supporting evidence less valued
 
-RP: 
+RP:
 
 - Impact on funds allocated and 'influence' on decisionmakers
 - Publications and grants as a means to an end; discussion of how much to publish traditionally versus other outlets
@@ -711,19 +712,19 @@ Divide by project cost
 
 $\rightarrow$  "Impact per dollar spent"
 
-$\rightarrow$ Extrapolate to total value of RP 
+$\rightarrow$ Extrapolate to total value of RP
 
 
 # Changing the game: Ideas for more productive system of peer feedback and credibility
 
-The EA research landscape - a new 'funder' and consumer of research 
+The EA research landscape - a new 'funder' and consumer of research
 
 We care about research value, accuracy, and impact, not as mch  'innovation' or theoretical rigor
 
 We are not so tied to traditional institutions (publishers, traditional grantmakers)
 
 
-$\rightarrow$ ['Evaluated project repo'](https://docs.google.com/document/d/1GFISlF5TieCuA6jDYkYlNWaEpuEYrr_zTmaVpTfBg4A/edit#heading=h.iqq0k5uqyg8x) rather than frozen publications? 
+$\rightarrow$ ['Evaluated project repo'](https://docs.google.com/document/d/1GFISlF5TieCuA6jDYkYlNWaEpuEYrr_zTmaVpTfBg4A/edit#heading=h.iqq0k5uqyg8x) rather than frozen publications?
 
 # *Can we help academia escape the journal publication collective-action problem?*
 
@@ -750,7 +751,7 @@ $\rightarrow$ ['Evaluated project repo'](https://docs.google.com/document/d/1GFI
 
 -   Help build open-content
 
-Encourage your students 
+Encourage your students
 
 - to apply for GPI/FHI/RP fellowships and internships
 - to engage with the [Effective Thesis Project](https://effectivethesis.org/project/)
@@ -760,21 +761,21 @@ Encourage your students
 
 Note: RP and GPI differ dramatically in focus and approach; I'm mainly talking about RP.
 
-Yes
+YES if you (because you like)...
 
--   Care about impact and social good; research outcomes, implications, applications
+-  Care about impact and social good; research outcomes, implications, applications
 
--   Rigorous analytical framework (Philosophy, Economics, Statistics/data) *anchored and connected to the practical*
+-  Rigorous analytical framework (Philosophy, Economics, Statistics/data) *anchored and connected to the practical*
 
--   "Interdisciplinary" in the right way
+-  "Interdisciplinary" in the right way
 
--   Positive environment: people motivated by *outcomes*, zero competitiveness/politics AFAIK
+-  Positive, supportive environment: people motivated by *outcomes*, zero competitiveness/politics AFAIK
 
--   High-achieving, super-literate and 'switched on' colleagues
+-  High-achieving, super-literate and 'switched on' colleagues
 
 \
 
-No
+NO if you want to...
 
 - Focus on deeply theoretical 'pure' research without a direct connection to impact
 
@@ -782,7 +783,7 @@ No
 
 \
 
-Maybe
+MAYBE  if you want to...
 
 - Teach/work with a large group of motivated young people, guide careers
 
@@ -790,11 +791,6 @@ Maybe
 
 - Prestige/public intellectual
 
--   Empirical behavioural -- how to get people to care and get involved
-
-Note: in your teaching and academia, what is the direction you want to go?
-
-You can also bring it into your teaching and student research paths and career guidance... to motivate students (effective thesis)...
 
 
 # Which fields?
@@ -811,7 +807,7 @@ Political science and international relations/area studies
 
 Biology and neuroscience (RP just hired an entymologist): Wild animal welfare, animal sentience
 
-Other sciences: Existential risks (natural and human) 
+Other sciences: Existential risks (natural and human)
 
 
 EA impact success funding -- <https://www.getguesstimate.com/models/17702>

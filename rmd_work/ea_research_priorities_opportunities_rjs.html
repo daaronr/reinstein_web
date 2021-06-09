@@ -1,0 +1,2442 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="David Reinstein" />
+  <meta name="dcterms.date" content="2021-06-09" />
+  <title>Effective Altruism: Research Priorities and Opportunities</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="ea_research_priorities_opportunities_rjs_files/reveal.js-3.3.0.1/css/reveal.css"/>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<link rel="stylesheet" href="ea_research_priorities_opportunities_rjs_files/reveal.js-3.3.0.1/css/theme/white.css" id="theme">
+
+
+  <!-- some tweaks to reveal css -->
+  <style type="text/css">
+    .reveal h1 { font-size: 2.0em; }
+    .reveal h2 { font-size: 1.5em;  }
+    .reveal h3 { font-size: 1.25em;	}
+    .reveal h4 { font-size: 1em;	}
+
+    .reveal .slides>section,
+    .reveal .slides>section>section {
+      padding: 0px 0px;
+    }
+
+
+
+    .reveal table {
+      border-width: 1px;
+      border-spacing: 2px;
+      border-style: dotted;
+      border-color: gray;
+      border-collapse: collapse;
+      font-size: 0.7em;
+    }
+
+    .reveal table th {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      font-weight: bold;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+    .reveal table td {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+
+  </style>
+
+    <style type="text/css">code{white-space: pre;}</style>
+
+    <link rel="stylesheet" href="reveal.css"/>
+
+<!-- Printing and PDF exports -->
+<script id="paper-css" type="application/dynamic-css">
+
+/* Default Print Stylesheet Template
+   by Rob Glazebrook of CSSnewbie.com
+   Last Updated: June 4, 2008
+
+   Feel free (nay, compelled) to edit, append, and
+   manipulate this file as you see fit. */
+
+
+@media print {
+
+	/* SECTION 1: Set default width, margin, float, and
+	   background. This prevents elements from extending
+	   beyond the edge of the printed page, and prevents
+	   unnecessary background images from printing */
+	html {
+		background: #fff;
+		width: auto;
+		height: auto;
+		overflow: visible;
+	}
+	body {
+		background: #fff;
+		font-size: 20pt;
+		width: auto;
+		height: auto;
+		border: 0;
+		margin: 0 5%;
+		padding: 0;
+		overflow: visible;
+		float: none !important;
+	}
+
+	/* SECTION 2: Remove any elements not needed in print.
+	   This would include navigation, ads, sidebars, etc. */
+	.nestedarrow,
+	.controls,
+	.fork-reveal,
+	.share-reveal,
+	.state-background,
+	.reveal .progress,
+	.reveal .backgrounds {
+		display: none !important;
+	}
+
+	/* SECTION 3: Set body font face, size, and color.
+	   Consider using a serif font for readability. */
+	body, p, td, li, div {
+		font-size: 20pt!important;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		color: #000;
+	}
+
+	/* SECTION 4: Set heading font face, sizes, and color.
+	   Differentiate your headings from your body text.
+	   Perhaps use a large sans-serif for distinction. */
+	h1,h2,h3,h4,h5,h6 {
+		color: #000!important;
+		height: auto;
+		line-height: normal;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		text-shadow: 0 0 0 #000 !important;
+		text-align: left;
+		letter-spacing: normal;
+	}
+	/* Need to reduce the size of the fonts for printing */
+	h1 { font-size: 28pt !important;  }
+	h2 { font-size: 24pt !important; }
+	h3 { font-size: 22pt !important; }
+	h4 { font-size: 22pt !important; font-variant: small-caps; }
+	h5 { font-size: 21pt !important; }
+	h6 { font-size: 20pt !important; font-style: italic; }
+
+	/* SECTION 5: Make hyperlinks more usable.
+	   Ensure links are underlined, and consider appending
+	   the URL to the end of the link for usability. */
+	a:link,
+	a:visited {
+		color: #000 !important;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+	/*
+	.reveal a:link:after,
+	.reveal a:visited:after {
+		content: " (" attr(href) ") ";
+		color: #222 !important;
+		font-size: 90%;
+	}
+	*/
+
+
+	/* SECTION 6: more reveal.js specific additions by @skypanther */
+	ul, ol, div, p {
+		visibility: visible;
+		position: static;
+		width: auto;
+		height: auto;
+		display: block;
+		overflow: visible;
+		margin: 0;
+		text-align: left !important;
+	}
+	.reveal pre,
+	.reveal table {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.reveal pre code {
+		padding: 20px;
+		border: 1px solid #ddd;
+	}
+	.reveal blockquote {
+		margin: 20px 0;
+	}
+	.reveal .slides {
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 0 !important;
+		zoom: 1 !important;
+
+		overflow: visible !important;
+		display: block !important;
+
+		text-align: left !important;
+		-webkit-perspective: none;
+		   -moz-perspective: none;
+		    -ms-perspective: none;
+		        perspective: none;
+
+		-webkit-perspective-origin: 50% 50%;
+		   -moz-perspective-origin: 50% 50%;
+		    -ms-perspective-origin: 50% 50%;
+		        perspective-origin: 50% 50%;
+	}
+	.reveal .slides section {
+		visibility: visible !important;
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+		display: block !important;
+		overflow: visible !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 60px 20px !important;
+		z-index: auto !important;
+
+		opacity: 1 !important;
+
+		page-break-after: always !important;
+
+		-webkit-transform-style: flat !important;
+		   -moz-transform-style: flat !important;
+		    -ms-transform-style: flat !important;
+		        transform-style: flat !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+
+		-webkit-transition: none !important;
+		   -moz-transition: none !important;
+		    -ms-transition: none !important;
+		        transition: none !important;
+	}
+	.reveal .slides section.stack {
+		padding: 0 !important;
+	}
+	.reveal section:last-of-type {
+		page-break-after: avoid !important;
+	}
+	.reveal section .fragment {
+		opacity: 1 !important;
+		visibility: visible !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+	}
+	.reveal section img {
+		display: block;
+		margin: 15px 0px;
+		background: rgba(255,255,255,1);
+		border: 1px solid #666;
+		box-shadow: none;
+	}
+
+	.reveal section small {
+		font-size: 0.8em;
+	}
+
+}  
+</script>
+
+
+<script id="pdf-css" type="application/dynamic-css">
+    
+/**
+ * This stylesheet is used to print reveal.js
+ * presentations to PDF.
+ *
+ * https://github.com/hakimel/reveal.js#pdf-export
+ */
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+
+body {
+	margin: 0 auto !important;
+	border: 0;
+	padding: 0;
+	float: none !important;
+	overflow: visible;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+}
+
+/* Remove any elements not needed in print. */
+.nestedarrow,
+.reveal .controls,
+.reveal .progress,
+.reveal .playback,
+.reveal.overview,
+.fork-reveal,
+.share-reveal,
+.state-background {
+	display: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-shadow: 0 0 0 #000 !important;
+}
+
+.reveal pre code {
+	overflow: hidden !important;
+	font-family: Courier, 'Courier New', monospace !important;
+}
+
+ul, ol, div, p {
+	visibility: visible;
+	position: static;
+	width: auto;
+	height: auto;
+	display: block;
+	overflow: visible;
+	margin: auto;
+}
+.reveal {
+	width: auto !important;
+	height: auto !important;
+	overflow: hidden !important;
+}
+.reveal .slides {
+	position: static;
+	width: 100%;
+	height: auto;
+
+	left: auto;
+	top: auto;
+	margin: 0 !important;
+	padding: 0 !important;
+
+	overflow: visible;
+	display: block;
+
+	-webkit-perspective: none;
+	   -moz-perspective: none;
+	    -ms-perspective: none;
+	        perspective: none;
+
+	-webkit-perspective-origin: 50% 50%; /* there isn't a none/auto value but 50-50 is the default */
+	   -moz-perspective-origin: 50% 50%;
+	    -ms-perspective-origin: 50% 50%;
+	        perspective-origin: 50% 50%;
+}
+
+.reveal .slides section {
+	page-break-after: always !important;
+
+	visibility: visible !important;
+	position: relative !important;
+	display: block !important;
+	position: relative !important;
+
+	margin: 0 !important;
+	padding: 0 !important;
+	box-sizing: border-box !important;
+	min-height: 1px;
+
+	opacity: 1 !important;
+
+	-webkit-transform-style: flat !important;
+	   -moz-transform-style: flat !important;
+	    -ms-transform-style: flat !important;
+	        transform-style: flat !important;
+
+	-webkit-transform: none !important;
+	   -moz-transform: none !important;
+	    -ms-transform: none !important;
+	        transform: none !important;
+}
+
+.reveal section.stack {
+	margin: 0 !important;
+	padding: 0 !important;
+	page-break-after: avoid !important;
+	height: auto !important;
+	min-height: auto !important;
+}
+
+.reveal img {
+	box-shadow: none;
+}
+
+.reveal .roll {
+	overflow: visible;
+	line-height: 1em;
+}
+
+/* Slide backgrounds are placed inside of their slide when exporting to PDF */
+.reveal section .slide-background {
+	display: block !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+/* All elements should be above the slide-background */
+.reveal section>* {
+	position: relative;
+	z-index: 1;
+}
+
+/* Display slide speaker notes when 'showNotes' is enabled */
+.reveal .speaker-notes-pdf {
+	display: block;
+	width: 100%;
+	max-height: none;
+	left: auto;
+	top: auto;
+	z-index: 100;
+}
+
+/* Display slide numbers when 'slideNumber' is enabled */
+.reveal .slide-number-pdf {
+	display: block;
+	position: absolute;
+	font-size: 14px;
+}
+
+</script>
+
+
+<script>
+var style = document.createElement( 'style' );
+style.type = 'text/css';
+var style_script_id = window.location.search.match( /print-pdf/gi ) ? 'pdf-css' : 'paper-css';
+var style_script = document.getElementById(style_script_id).text;
+style.innerHTML = style_script;
+document.getElementsByTagName('head')[0].appendChild(style);
+</script>
+
+    <script src="ea_research_priorities_opportunities_rjs_files/header-attrs-2.8/header-attrs.js"></script>
+    <script src="ea_research_priorities_opportunities_rjs_files/kePrint-0.0.1/kePrint.js"></script>
+    <link href="ea_research_priorities_opportunities_rjs_files/lightable-0.0.1/lightable.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title">Effective Altruism: Research Priorities and Opportunities</h1>
+    <h2 class="author">David Reinstein</h2>
+    <h3 class="date">2021-06-09</h3>
+</section>
+
+<section class="slide level2">
+
+<!--
+
+rmarkdown::render('ea_research_priorities_opportunities_rjs.Rmd',
+                  output_yaml = "presentation.yml")
+
+-->
+<style>
+.reveal section p {
+    font-size: .90em !important;
+}
+
+.reveal section pre code {
+    font-size: 0.5em !important;
+}
+
+
+.reveal img[src*='#center'] {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+  $chunks = $('div.sourceCode'); // get all divs containing source code...
+  // add the button and a wrapping container to each of them...
+  $chunks.each(function() {
+    $(this).prepend('<div class=\"but_con\"><div class=\"showopt\">Show Source</div></div>');  // add the button and a wrapping container to each of them...
+    $(this).find('code').toggle(); // hide them right away...
+  });
+
+  // definition of the function to toggle visibility
+  // we select all buttons, and add a click function
+  $('.showopt').click(function() {
+    var label = $(this).html();
+    if (label.indexOf("Show") >= 0) {
+      $(this).html(label.replace("Show", "Hide"));
+    } else {
+      $(this).html(label.replace("Hide", "Show"));
+    }
+    $(this).parent().siblings('pre').children('code').slideToggle('fast', 'swing');
+  });
+
+});
+</script>
+<style>
+div.but_con {
+  margin: auto;
+  width: 97%;
+  height: 90%;
+  padding-bottom: 0px;
+}
+
+div.showopt {
+  font-size: 5%;
+  background-color: #004c93;
+  color: #FFFFFF;
+  width: 100px;
+  height: 20px;
+  text-align: center;
+  vertical-align: middle !important;
+  float: right;
+  font-family: sans-serif;
+  border-radius: 3px;
+  margin-bottom: 0px;
+}
+
+.showopt:hover {
+    background-color: #dfe4f2;
+    color: #004c93;
+}
+.reveal h1 { font-size: 1.4em; }
+.reveal h2 { font-size: 1.2em;  text-transform: none;}
+.reveal h3{ font-size: 1.1em;  text-transform: none;}
+</style>
+<style type="text/css">
+  .reveal p {
+    text-align: left;
+    font-size: .7em !important;
+  }
+  .reveal ul {
+    display: block;
+    font-size: .7em !important;
+    text-align: left;
+    margin-left: 3em;
+  }
+  .reveal ol {
+    display: block;
+    font-size: .7em !important;
+    text-align: left;
+    margin-left: 3em;
+  }
+  .reveal ul ul {
+    display: block;
+    font-size: .65em !important;
+    text-align: left;
+    margin-left: 4em;
+  }
+
+  .reveal ol ol {
+    display: block;
+    font-size: .6em !important;
+    text-align: left;
+    margin-left: 4em;
+  }
+  .reveal ol ul {
+    display: block;
+    font-size: .6em !important;
+    text-align: left;
+    margin-left: 4em;
+  }
+
+.reveal section p {
+    font-size: .90em !important;
+}
+
+.reveal section pre code {
+    font-size: 0.5em !important;
+}
+
+.reveal blockquote {
+    display: block;
+    position: relative;
+    width: 97%;
+    margin: $blockMargin auto;
+    padding: 13px;
+  font-size: .70em !important;
+  font-style: normal;
+    background: rgba(128,0,0,0.25);
+}
+    .reveal blockquote p:first-child,
+    .reveal blockquote p:last-child {
+        display: inline-block;
+          font-size: .70 !important;
+          font-style: normal;
+    }
+
+
+</style>
+<pre><code>## [1] TRUE</code></pre>
+</section>
+<section>
+<section id="preamble" class="title-slide slide level1">
+<h1>Preamble</h1>
+
+</section>
+<section id="message" class="slide level2">
+<h2>Message</h2>
+<p><img data-src="https://www.azquotes.com/picture-quotes/quote-practical-men-who-believe-themselves-to-be-quite-exempt-from-any-intellectual-influence-john-maynard-keynes-39-75-16.jpg" alt="We can now do better than this vague hope!" /></p>
+<p>The founders of Effective Altruism took ideas from Philosophy, Economics, and other parts of academia to build a rigorous approach to ‘doing the most good in the world’, and to exploring and measuring this.</p>
+<div class="fragment">
+<ul>
+<li>Miraculously, “EA happened”</li>
+</ul>
+<aside class="notes">
+<font size="1"> Miraculously, EA also has a passionate and influential group of supporters, and a substantial pool of funds for research, interventions, and advocacy! </font>
+</aside>
+</div>
+</section>
+<section class="slide level2">
+
+<p><strong>Big opportunity for academic researchers to have impact, inspiration, funding</strong></p>
+<ul>
+<li><p>Partnering within academia, EA research audience</p></li>
+<li><p>Grants</p></li>
+<li><p>Helping students</p></li>
+<li><p>Leave academia for greener (?) pastures at an EA-aligned org</p></li>
+</ul>
+<aside class="notes">
+<p><font size="1"> EA and global priorities research offers a huge opportunity for academic researchers to have an positive impact (on the allocation of funds, and on the market of ideas).</p>
+<p>There are opportunities for funding to support your research within academia, to promote the impact of your research (and gain valuable feedback), to help students find meaningful careers/research<br />
+</p>
+<p>…and/or you may want to leave academia work directly for an EA-aligned organization (like I did).</p>
+</font>
+</aside>
+</section>
+<section id="things-im-not-going-to-cover" class="slide level2">
+<h2>Things I’m not going to cover:</h2>
+<div class="fragment">
+<ul>
+<li>“Things I’m not going to cover” (no time)</li>
+</ul>
+</div>
+</section></section>
+<section>
+<section id="whatwho-is-ea-what-researchfunding-is-there" class="title-slide slide level1">
+<h1>What/who is EA? What research/funding is there?</h1>
+
+</section>
+<section id="what-is-ea" class="slide level2">
+<h2>What is EA?</h2>
+<blockquote>
+<p>Doing the ‘most good’ given limited resources (some relationship to utilitarianism)…</p>
+</blockquote>
+<center>
+<p><em>but how do we define ‘the most good’?</em></p>
+</center>
+</section>
+<section class="slide level2">
+
+<center>
+<p><img data-src="images/priority_q.png" />){width=“550”}</p>
+</center>
+<p>What do EA’s prioritize most?</p>
+<ol type="1">
+<li>Global Poverty</li>
+<li>Artificial Intelligence Risk</li>
+<li>Climate Change</li>
+<li>Cause prioritization</li>
+<li>Animal welfare</li>
+</ol>
+</section>
+<section class="slide level2">
+
+<p>Results of impromptu survey at LIS conference: What they <em>think</em> EA’s prioritize</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>lis_ea_priority_guess <span class="ot">&lt;-</span> <span class="fu">factor</span>(<span class="fu">c</span>(</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Cause prioritization&quot;</span>,</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Global Poverty&quot;</span>,</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Cause prioritization&quot;</span>,</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Climate Change&quot;</span>,</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Global Poverty&quot;</span>,</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Climate Change&quot;</span>,</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Global Poverty&quot;</span>,</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Global Poverty&quot;</span>,</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Cause prioritization&quot;</span>,</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Cause prioritization&quot;</span>,</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Climate Change&quot;</span>,</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Cause prioritization&quot;</span>,</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Climate Change&quot;</span>,</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Artificial Intelligence Risk&quot;</span>,</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Climate Change&quot;</span>,</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Global Poverty&quot;</span>,</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Cause prioritization&quot;</span>,</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Cause prioritization&quot;</span>,</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Climate Change&quot;</span>,</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Global Poverty&quot;</span>,</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Cause prioritization&quot;</span>,</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Cause prioritization&quot;</span>,</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Cause prioritization&quot;</span>,</span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Global Poverty&quot;</span>,</span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Global Poverty&quot;</span>,</span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Global Poverty&quot;</span>,</span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Cause prioritization&quot;</span>,</span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Climate Change&quot;</span>,</span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Climate Change&quot;</span>,</span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Global Poverty&quot;</span>,</span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Global Poverty&quot;</span>,</span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Climate Change&quot;</span>,</span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Global Poverty&quot;</span>,</span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Global Poverty&quot;</span>,</span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Cause prioritization&quot;</span>,</span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Climate Change&quot;</span>,</span>
+<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Global Poverty&quot;</span>,</span>
+<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;Global Poverty&quot;</span></span>
+<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a>) </span>
+<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a>lis_survey <span class="ot">&lt;-</span> <span class="fu">tibble</span>(</span>
+<span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a>  <span class="at">lis_ea_priority_guess =</span> lis_ea_priority_guess</span>
+<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a>lis_survey <span class="sc">%&gt;%</span> <span class="fu">tabg</span>(lis_ea_priority_guess) <span class="sc">%&gt;%</span> </span>
+<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a>  <span class="fu">.kable</span>(<span class="at">caption =</span> <span class="st">&quot;What LIS resspondents *think* EAs prioritize most:&quot;</span> ) <span class="sc">%&gt;%</span> </span>
+<span id="cb2-49"><a href="#cb2-49" aria-hidden="true" tabindex="-1"></a>  <span class="fu">.kable_styling</span>()</span></code></pre></div>
+<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+What LIS resspondents <em>think</em> EAs prioritize most:
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+lis_ea_priority_guess
+</th>
+<th style="text-align:right;">
+n
+</th>
+<th style="text-align:right;">
+percent
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Global Poverty
+</td>
+<td style="text-align:right;">
+15
+</td>
+<td style="text-align:right;">
+0.39
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Cause prioritization
+</td>
+<td style="text-align:right;">
+12
+</td>
+<td style="text-align:right;">
+0.32
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Climate Change
+</td>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:right;">
+0.26
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Artificial Intelligence Risk
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+0.03
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section class="slide level2">
+
+<p>2020 EA survey: all responses</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>(</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>priority_ordered_bar <span class="ot">&lt;-</span> lik_priority_eas20 <span class="sc">%&gt;%</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>      <span class="fu">as.data.frame</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">select</span>(<span class="sc">-</span>engagement_num) <span class="sc">%&gt;%</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">likert</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">plot</span>(.,</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>     <span class="at">type=</span><span class="st">&quot;bar&quot;</span>) <span class="sc">+</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggtitle</span>(title)</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+<p><img src="ea_research_priorities_opportunities_rjs_files/figure-revealjs/unnamed-chunk-16-1.png" title="All responses" alt="All responses" width="768" /></p>
+</section>
+<section class="slide level2">
+
+<p>… ‘Highly engaged’ (self-rated)</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>(</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>priority_ordered_bar_eng <span class="ot">&lt;-</span> lik_priority_eas20 <span class="sc">%&gt;%</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(engagement_num<span class="sc">==</span><span class="dv">5</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>        <span class="fu">select</span>(<span class="sc">-</span>engagement_num) <span class="sc">%&gt;%</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>   <span class="fu">as.data.frame</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    <span class="fu">likert</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">plot</span>(<span class="at">type=</span><span class="st">&quot;bar&quot;</span>) <span class="sc">+</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggtitle</span>(title)</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+<p><img src="ea_research_priorities_opportunities_rjs_files/figure-revealjs/unnamed-chunk-17-1.png" title="Highly engaged only (rated 5/5)" alt="Highly engaged only (rated 5/5)" width="768" /></p>
+</section>
+<section class="slide level2">
+
+<p><img data-src="http://www.toxicgreen.com/images/skitspage/lesko1.gif" alt="How much effective altruism/global priorities research funding is there?" /></p>
+<p><em>How much effective altruism/global priorities research funding is there?</em></p>
+</section>
+<section class="slide level2">
+
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>.kable_styling <span class="ot">&lt;-</span> <span class="fu">hijack</span>(kableExtra<span class="sc">::</span>kable_styling, <span class="at">full_width=</span><span class="cn">FALSE</span>)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>.kable <span class="ot">&lt;-</span> <span class="fu">hijack</span>(knitr<span class="sc">::</span>kable, <span class="at">format.args =</span> <span class="fu">list</span>(<span class="at">big.mark =</span> <span class="st">&quot;,&quot;</span>, <span class="at">scientific =</span> <span class="cn">FALSE</span>))</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>(</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>op_research_grants_tab <span class="ot">&lt;-</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>open_phil_grants <span class="sc">%&gt;%</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(possible_research<span class="sc">==</span><span class="cn">TRUE</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(year) <span class="sc">%&gt;%</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">summarise</span>(<span class="at">total =</span>  <span class="fu">format</span>(<span class="fu">sum</span>(amount, <span class="at">na.rm =</span> <span class="cn">TRUE</span>), <span class="at">big.mark=</span><span class="st">&quot;,&quot;</span>, <span class="at">scientific=</span><span class="cn">FALSE</span>), <span class="at">grants =</span> <span class="fu">n</span>()) <span class="sc">%&gt;%</span></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="sc">-</span>year) <span class="sc">%&gt;%</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="at">year=</span><span class="fu">as.character</span>(year)) <span class="sc">%&gt;%</span></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>    <span class="fu">.kable</span>(<span class="at">caption =</span> <span class="st">&quot;Open Phil (likely) research funding by year&quot;</span>)  <span class="sc">%&gt;%</span></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a> <span class="fu">.kable_styling</span>()</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+Open Phil (likely) research funding by year
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+year
+</th>
+<th style="text-align:left;">
+total
+</th>
+<th style="text-align:right;">
+grants
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+2021
+</td>
+<td style="text-align:left;">
+18,877,180
+</td>
+<td style="text-align:right;">
+11
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2020
+</td>
+<td style="text-align:left;">
+77,681,029
+</td>
+<td style="text-align:right;">
+76
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2019
+</td>
+<td style="text-align:left;">
+122,463,958
+</td>
+<td style="text-align:right;">
+63
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2018
+</td>
+<td style="text-align:left;">
+38,589,084
+</td>
+<td style="text-align:right;">
+52
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2017
+</td>
+<td style="text-align:left;">
+57,666,403
+</td>
+<td style="text-align:right;">
+45
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2016
+</td>
+<td style="text-align:left;">
+22,386,936
+</td>
+<td style="text-align:right;">
+27
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2015
+</td>
+<td style="text-align:left;">
+2,591,000
+</td>
+<td style="text-align:right;">
+9
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2014
+</td>
+<td style="text-align:left;">
+1,437,720
+</td>
+<td style="text-align:right;">
+3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2013
+</td>
+<td style="text-align:left;">
+445,000
+</td>
+<td style="text-align:right;">
+2
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section class="slide level2">
+
+<p>By year and focus area:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>(</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  op_res_grants_tab_yr_area <span class="ot">&lt;-</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>open_phil_grants <span class="sc">%&gt;%</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">filter</span>(possible_research<span class="sc">==</span><span class="cn">TRUE</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    dplyr<span class="sc">::</span><span class="fu">group_by</span>(year, focus_area) <span class="sc">%&gt;%</span> <span class="co"># drop_na(!!yvar, !!treatvar) %&gt;%</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    <span class="fu">summarise</span>(<span class="at">total =</span> <span class="fu">sum</span>(amount_usd_k,  <span class="at">na.rm =</span> <span class="cn">TRUE</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>    <span class="fu">spread</span>(year, total, <span class="at">fill=</span><span class="dv">0</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>    <span class="fu">arrange</span>(<span class="sc">-</span><span class="st">`</span><span class="at">2020</span><span class="st">`</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>    <span class="fu">.kable</span>(<span class="at">caption =</span> <span class="st">&quot;OpenPhil (likely research) grants by year and area, in $1000 USD&quot;</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>    <span class="fu">.kable_styling</span>()</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+<pre><code>## `summarise()` has grouped output by &#39;year&#39;. You can override using the `.groups` argument.</code></pre>
+<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+OpenPhil (likely research) grants by year and area, in $1000 USD
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+focus_area
+</th>
+<th style="text-align:right;">
+2013
+</th>
+<th style="text-align:right;">
+2014
+</th>
+<th style="text-align:right;">
+2015
+</th>
+<th style="text-align:right;">
+2016
+</th>
+<th style="text-align:right;">
+2017
+</th>
+<th style="text-align:right;">
+2018
+</th>
+<th style="text-align:right;">
+2019
+</th>
+<th style="text-align:right;">
+2020
+</th>
+<th style="text-align:right;">
+2021
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Scient. Res.
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+7,085
+</td>
+<td style="text-align:right;">
+27,500
+</td>
+<td style="text-align:right;">
+19,720
+</td>
+<td style="text-align:right;">
+43,770
+</td>
+<td style="text-align:right;">
+43,751
+</td>
+<td style="text-align:right;">
+672
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Biosec.
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+300
+</td>
+<td style="text-align:right;">
+1,943
+</td>
+<td style="text-align:right;">
+7,747
+</td>
+<td style="text-align:right;">
+8,704
+</td>
+<td style="text-align:right;">
+1,625
+</td>
+<td style="text-align:right;">
+12,792
+</td>
+<td style="text-align:right;">
+1,000
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+AI risk
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1,186
+</td>
+<td style="text-align:right;">
+6,333
+</td>
+<td style="text-align:right;">
+10,798
+</td>
+<td style="text-align:right;">
+3,128
+</td>
+<td style="text-align:right;">
+61,288
+</td>
+<td style="text-align:right;">
+10,891
+</td>
+<td style="text-align:right;">
+15,185
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Glob. Catastr.
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+3,070
+</td>
+<td style="text-align:right;">
+3,758
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1,703
+</td>
+<td style="text-align:right;">
+4,586
+</td>
+<td style="text-align:right;">
+1,500
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Farm Animal
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+820
+</td>
+<td style="text-align:right;">
+2,022
+</td>
+<td style="text-align:right;">
+4,580
+</td>
+<td style="text-align:right;">
+3,296
+</td>
+<td style="text-align:right;">
+3,261
+</td>
+<td style="text-align:right;">
+519
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Other
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:right;">
+500
+</td>
+<td style="text-align:right;">
+1,550
+</td>
+<td style="text-align:right;">
+47
+</td>
+<td style="text-align:right;">
+1,050
+</td>
+<td style="text-align:right;">
+806
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Glob. Health/Dev.
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+2,864
+</td>
+<td style="text-align:right;">
+210
+</td>
+<td style="text-align:right;">
+3,176
+</td>
+<td style="text-align:right;">
+678
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Macro-econ
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+700
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+700
+</td>
+<td style="text-align:right;">
+1,150
+</td>
+<td style="text-align:right;">
+600
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Immig. Pol.
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1,185
+</td>
+<td style="text-align:right;">
+390
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+400
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+200
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Crime/Justice
+</td>
+<td style="text-align:right;">
+445
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+180
+</td>
+<td style="text-align:right;">
+1,636
+</td>
+<td style="text-align:right;">
+1,427
+</td>
+<td style="text-align:right;">
+1,101
+</td>
+<td style="text-align:right;">
+5,066
+</td>
+<td style="text-align:right;">
+115
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Land Ref.
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+275
+</td>
+<td style="text-align:right;">
+300
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+340
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+US pol.
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+253
+</td>
+<td style="text-align:right;">
+250
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+</tbody>
+</table>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>(</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>  op_res_grants_line <span class="ot">&lt;-</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>open_phil_grants <span class="sc">%&gt;%</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(year, focus_area) <span class="sc">%&gt;%</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="at">total =</span> <span class="fu">sum</span>(amount_usd_k, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>    <span class="fu">ggplot</span>() <span class="sc">+</span></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(<span class="at">x =</span> year, <span class="at">y =</span> amount_usd_k, <span class="at">colour =</span> focus_area) <span class="sc">+</span></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_jitter</span>(<span class="at">width =</span> <span class="fl">0.5</span>, <span class="at">height =</span> <span class="fl">0.2</span>, <span class="at">size=</span><span class="fl">0.8</span>) <span class="sc">+</span></span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_colour_discrete</span>(<span class="at">labels =</span> <span class="cf">function</span>(x) <span class="fu">str_wrap</span>(x, <span class="at">width =</span> <span class="dv">15</span>)) <span class="sc">+</span></span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">x=</span>year, <span class="at">y=</span>total)) <span class="sc">+</span></span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ylab</span>(<span class="st">&quot;Grant amounts in $1k&quot;</span>)</span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+<p><img src="ea_research_priorities_opportunities_rjs_files/figure-revealjs/unnamed-chunk-20-1.png" width="768" /></p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>(</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>open_phil_grants <span class="sc">%&gt;%</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(possible_research<span class="sc">==</span><span class="cn">TRUE</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(year<span class="sc">==</span><span class="dv">2020</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Focus.Area) <span class="sc">%&gt;%</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">total =</span> <span class="fu">format</span>(<span class="fu">sum</span>(amount, <span class="at">na.rm =</span> <span class="cn">TRUE</span>), <span class="at">big.mark=</span><span class="st">&quot;,&quot;</span>, <span class="at">scientific=</span><span class="cn">FALSE</span>), <span class="at">grants =</span> <span class="fu">n</span>()) <span class="sc">%&gt;%</span></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">arrange</span>(<span class="sc">-</span>grants) <span class="sc">%&gt;%</span></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">.kable</span>(<span class="at">caption =</span> <span class="st">&quot;Open Phil (likely) research funding, 2020&quot;</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">.kable_styling</span>()</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+Open Phil (likely) research funding, 2020
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+Focus.Area
+</th>
+<th style="text-align:left;">
+total
+</th>
+<th style="text-align:right;">
+grants
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Scientific Research
+</td>
+<td style="text-align:left;">
+43,750,718
+</td>
+<td style="text-align:right;">
+33
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Farm Animal Welfare
+</td>
+<td style="text-align:left;">
+3,261,351
+</td>
+<td style="text-align:right;">
+13
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Potential Risks from Advanced Artificial Intelligence
+</td>
+<td style="text-align:left;">
+10,891,345
+</td>
+<td style="text-align:right;">
+8
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Biosecurity and Pandemic Preparedness
+</td>
+<td style="text-align:left;">
+12,792,330
+</td>
+<td style="text-align:right;">
+7
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Global Health &amp; Development
+</td>
+<td style="text-align:left;">
+678,358
+</td>
+<td style="text-align:right;">
+5
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Criminal Justice Reform
+</td>
+<td style="text-align:left;">
+115,000
+</td>
+<td style="text-align:right;">
+3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Global Catastrophic Risks
+</td>
+<td style="text-align:left;">
+4,586,224
+</td>
+<td style="text-align:right;">
+2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Macroeconomic Stabilization Policy
+</td>
+<td style="text-align:left;">
+600,000
+</td>
+<td style="text-align:right;">
+2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Other areas
+</td>
+<td style="text-align:left;">
+805,703
+</td>
+<td style="text-align:right;">
+2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Immigration Policy
+</td>
+<td style="text-align:left;">
+200,000
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section class="slide level2">
+
+<p>By organization</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>(</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  op_res_grants_tab_orgs_area <span class="ot">&lt;-</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>open_phil_grants <span class="sc">%&gt;%</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">filter</span>(possible_research<span class="sc">==</span><span class="cn">TRUE</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>    dplyr<span class="sc">::</span><span class="fu">group_by</span>(Organization.Name) <span class="sc">%&gt;%</span> <span class="co"># drop_na(!!yvar, !!treatvar) %&gt;%</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">total =</span> <span class="fu">sum</span>(amount_usd_k,  <span class="at">na.rm =</span> <span class="cn">TRUE</span>), <span class="st">`</span><span class="at">number of grants</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">n</span>()) <span class="sc">%&gt;%</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>      <span class="fu">arrange</span>(<span class="sc">-</span>total) <span class="sc">%&gt;%</span></span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>    <span class="fu">filter</span>(total<span class="sc">&gt;</span><span class="dv">5000</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>    <span class="fu">.kable</span>(<span class="at">caption =</span> <span class="st">&quot;OpenPhil (likely research) grants by corganization  and area, in $1000 USD&quot;</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">.kable_styling</span>()</span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+OpenPhil (likely research) grants by corganization and area, in $1000 USD
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+Organization.Name
+</th>
+<th style="text-align:right;">
+total
+</th>
+<th style="text-align:right;">
+number of grants
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Georgetown University
+</td>
+<td style="text-align:right;">
+55,250
+</td>
+<td style="text-align:right;">
+2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+UC Berkeley
+</td>
+<td style="text-align:right;">
+29,552
+</td>
+<td style="text-align:right;">
+18
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Nuclear Threat Initiative
+</td>
+<td style="text-align:right;">
+20,439
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Sherlock Biosciences
+</td>
+<td style="text-align:right;">
+17,500
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Machine Intelligence Research Institute
+</td>
+<td style="text-align:right;">
+14,756
+</td>
+<td style="text-align:right;">
+5
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+University of Washington (Institute for Protein Design)
+</td>
+<td style="text-align:right;">
+11,368
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Stanford University
+</td>
+<td style="text-align:right;">
+8,294
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Open Phil AI Fellowship
+</td>
+<td style="text-align:right;">
+6,760
+</td>
+<td style="text-align:right;">
+4
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Arizona State University
+</td>
+<td style="text-align:right;">
+6,421
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+University of Southern California
+</td>
+<td style="text-align:right;">
+6,238
+</td>
+<td style="text-align:right;">
+3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Rutgers University
+</td>
+<td style="text-align:right;">
+5,982
+</td>
+<td style="text-align:right;">
+2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+MIT Synthetic Neurobiology Group
+</td>
+<td style="text-align:right;">
+5,970
+</td>
+<td style="text-align:right;">
+2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Stanford University
+</td>
+<td style="text-align:right;">
+5,752
+</td>
+<td style="text-align:right;">
+10
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Telethon Kids Institute
+</td>
+<td style="text-align:right;">
+5,300
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Foundation for Food and Agriculture Research
+</td>
+<td style="text-align:right;">
+5,292
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Harvard University
+</td>
+<td style="text-align:right;">
+5,068
+</td>
+<td style="text-align:right;">
+3
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="other-organizations-funding-or-doing-eagp-research-or-likely-interested" class="slide level2">
+<h2>Other organizations funding or doing EA/GP research, or likely interested</h2>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_url</span>(<span class="st">&quot;https://www.longview.org/grantmaking&quot;</span>,  <span class="at">height =</span> <span class="st">&quot;800px&quot;</span>)</span></code></pre></div>
+<iframe src="https://www.longview.org/grantmaking" width="768" height="800px">
+</iframe>
+</section>
+<section id="ea-funding-model" class="slide level2">
+<h2>EA funding model</h2>
+<!-- ![](images/petes_model_ea_funding.png) -->
+<p>Maybe 500 million USD per year in EA/adjacent donations (+ about 250 million from OpenPhil)</p>
+<ul>
+<li><p>GiveWell moving ~$80M per year</p></li>
+<li><p>Founders Pledge</p></li>
+<li><p>Longview</p></li>
+<li><p>Effective Giving</p></li>
+<li><p>EA Funds</p></li>
+<li><p>“Gates Foundation seems to do ~$100M-500M/yr of grants in global economic development that seem to have cost-effectiveness on par with GiveWell work”</p></li>
+</ul>
+<p>It’s not all research funding, but some of it is, and it is all <em>interested</em> in prioritization/effectiveness research.</p>
+<p>There is a large amount of Lots from tech and crypto billionaires/millionaires. Some ‘bigger fish’ on the line too like Elon Musk –&gt;</p>
+</section>
+<section id="other-research-orgs" class="slide level2">
+<h2>Other research orgs</h2>
+<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_url</span>(<span class="st">&quot;https://eaforum.issarice.com/posts/f6kg8T2Lp6rDqxWwG/list-of-ea-related-organisations&quot;</span>, <span class="at">height =</span> <span class="st">&quot;800px&quot;</span>)</span></code></pre></div>
+<iframe src="https://eaforum.issarice.com/posts/f6kg8T2Lp6rDqxWwG/list-of-ea-related-organisations" width="768" height="800px">
+</iframe>
+</section>
+<section id="research-orgs-partial-list" class="slide level2">
+<h2>Research orgs (partial list):</h2>
+<ul>
+<li>Future of Humanity Institute (about 70 including affiliates, fellows, affiliates)</li>
+<li>Global Priorities Institute (about 20 researchers/affiliates)</li>
+<li>Rethink Priorities (11 researchers, hiring more)</li>
+<li>GiveWell (about 10 researchers/advisors)</li>
+<li>Animal Charity Evaluators (5-ish)</li>
+<li>Machine Intelligence Research Institute (about 20)</li>
+</ul>
+</section>
+<section id="how-do-most-effective-altruists-engage-what-is-most-strongly-advocated" class="slide level2">
+<h2>How do most ‘effective altruists’ engage; what is most strongly advocated?</h2>
+<p><em>Quiz to audience?</em></p>
+<ol type="1">
+<li>Political action</li>
+<li>Effective charitable donations/Earning to give</li>
+<li>Pursuing a high-impact career</li>
+<li>Avoiding environmental damage through personal actions</li>
+</ol>
+<p><img data-src="images/which_career.png" /></p>
+</section>
+<section id="from-ea-surveys-ea-orgs" class="slide level2">
+<h2>From EA Surveys, EA orgs</h2>
+<p><img data-src="https://lh3.googleusercontent.com/NBcsdNdPchY4xlnoOjx6OPRjEk03AIAfZvhrjF2yD2RJbCv3WwA4JMQfEuGF9HnV1n78dY4z6TTvSHDLJzI_s3NA0Ra6O6-HtldIfZ3RgwG3vm0vdwijf4VNNLyzD5_1ixhqhVhD" alt="2019 survey: career plans" /></p>
+<ul>
+<li><p>EAs are moving towards pursuing impact through their careers.</p></li>
+<li><p>80k hours statements</p></li>
+</ul>
+<aside class="notes">
+<p><font size="1"></p>
+<p>Since 2015 <a href="https://80000hours.org/2015/07/80000-hours-thinks-that-only-a-small-proportion-of-people-should-earn-to-give-long-term/">“80,000 Hours thinks that only a small proportion of people should earn to give long term”</a> (MacAskill)</p>
+<p>There is also some support for politial influence, at least they say “the hour you spend voting is likely to be the most impactful one in your entire year on average… …influence over how hundreds of thousands or millions of dollars are spent.”</p>
+</font>
+</aside>
+</section>
+<section id="ea-careers-survey" class="slide level2">
+<h2>EA Careers (survey)</h2>
+<p><img data-src="https://lh5.googleusercontent.com/i-VysYHZbYHcE6QOdpP2hqlZ8saf1Wq9FSaTzz0F-zP0nH7ZbS6kUBiqOeAlBb2V6Ih7eF4x8AY2TJ5ZF4_8sIlUh0ASUk6xMYF1ssDhLSpIoVpofpz6rP5LEAlEJ0KhvHnQVzCd" alt="Careers: high vs less engaged" /></p>
+<p><a href="https://forum.effectivealtruism.org/posts/ThdR8FzcfA8wckTJi/ea-survey-2020-demographics#Level_of_Engagement">Source - EA survey 2020 forum post</a></p>
+</section></section>
+<section>
+<section id="my-story" class="title-slide slide level1">
+<h1>My story</h1>
+<center>
+<p><img data-src="images/my_web.png" width="400" alt="Reinstein CV" /></p>
+</center>
+<aside class="notes">
+<p><font size="1"> Why am I telling you my story?</p>
+<p>Telling you my story because it might help you understand the strengths and limitations of academia and working at an EA org, and whether this aligns with your interests.</p>
+</font>
+</aside>
+<p>From my <a href="https://daaronr.github.io/markdown-cv/">web CV</a> …</p>
+</section>
+<section class="slide level2">
+
+<iframe src="https://daaronr.github.io/markdown-cv/" width="768" height="800px">
+</iframe>
+</section>
+<section class="slide level2">
+
+<center>
+<p><img data-src="images/conversation.png" width="600" /></p>
+</center>
+<p>Berkeley:</p>
+<ul>
+<li>Proposing ‘new ideas’ like the <a href="https://theconversation.com/should-we-help-companies-tailor-prices-to-your-wage-packet-47719">Poor Card</a></li>
+</ul>
+<p>Limited audience…</p>
+<aside class="notes">
+<p><font size="1"></p>
+<p>‘How does this inform <em>government</em> policy?’, ‘How does it inform/relate to standard Economics (tractable mathematical) models of optimization?’, ‘Will this publish well’?</p>
+</font>
+</aside>
+</section>
+<section class="slide level2">
+
+<p><img data-src="images/ft_cartoon.png" /> <img data-src="images/ft_pub.png" width="400" /></p>
+<ul>
+<li><p>‘Does one donation come at the expense of another’?</p></li>
+<li><p>Should an ‘efficient altruist’ purchase ‘fair trade’ products, bundling consumer choices with additional revenue to poor farmers/workers?<br />
+</p></li>
+<li><p>Considering ideas with a pre-EA policy audience.</p></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<p><img data-src="https://www.researchgate.net/profile/David-Reinstein/publication/227377867/figure/tbl3/AS:640633689608197@1529750382204/Correlations-de-meaned-giving-variables_W640.jpg" alt="From Reinstein, 2011" /></p>
+</section>
+<section class="slide level2">
+
+<p>Things I care about: lining up with concepts in the discipline? But I really cared about ideas and impact.</p>
+<p><img data-src="images/essex_research_venn.png" alt="My research agenda c 2012" /> Essex, UK:</p>
+<ul>
+<li><p>Experiments/trials and observational work on charitable and gift-giving: social influences, types of income/uncertainty</p></li>
+<li><p>Applied microeconomic theory</p></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<center>
+<p><img data-src="images/iif_wiki.png" width="400" /></p>
+</center>
+<p>Moved to Exeter, UK</p>
+<ul>
+<li><p>to pursue ‘Impact’ (ESRC grant, REF focus)</p></li>
+<li><p>Building teaching/research/outreach resources, such as</p></li>
+<li><p><a href="innovationsinfundraising.org">innovationsinfundraising.org</a> and <a href="https://daaronr.github.io/ea_giving_barriers/index.html">‘barriers to effective giving’</a></p></li>
+<li><p>“Researching and writing for Economics students”</p></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<center>
+<p><img data-src="images/exeter_crown.png" width="400" /></p>
+</center>
+<ul>
+<li><p>Positives: Support, research freedom, deep theoretical work</p></li>
+<li><p>Limitations: Politics/management, journal games, less-engaged students</p></li>
+<li><p>Limitations</p></li>
+</ul>
+<aside class="notes">
+<p><font size="1"></p>
+<p>Positives: A fairly supportive environment, research freedom, many great colleagues, moderate teaching, targets ‘deep and rigorous theoretical work’, some of the smartest people</p>
+<p>Limitations: academic politics and poor upper-management, countervailing rewards system, constant discussion of points/games (value drift), students</p>
+<p>Standard publications as the only way to prove value; limits collaborative and nonstandard work</p>
+<p>UK academia rewards either ‘REF-points publications’, box-ticking accreditations, or currying favor with ‘admin’</p>
+</font>
+</aside>
+</section>
+<section id="rethinking-my-priorities-eyeroll" class="slide level2">
+<h2>Rethinking my priorities (eyeroll)</h2>
+<p><img data-src="images/rethink_priorities.png" width="400" /></p>
+<p>In 2021 I left my secure academic post:</p>
+<ul>
+<li><p>To pursue greater impact …</p></li>
+<li><p>To build tools and programs…</p></li>
+</ul>
+<aside class="notes">
+<p><font size="1"></p>
+<p>To pursue greater impact as a researcher at <a href="https://www.rethinkpriorities.org/our-team">Rethink Priorities</a>, a think tank “dedicated to figuring out the best ways to make the world a better place.” RP is closely tied to the Effective Altruism movement. My research into effective charitable giving is made possible by a grant from an individual donor under the advising of Longview Philanthropy.</p>
+<p>To build tools and programs promoting open, collaborative, and robust research, as well as teaching, learning, and research training outside of traditional university degree schemes.</p>
+</font>
+</aside>
+<p>(Should you do it too? Back to this at the end)</p>
+</section>
+<section id="what-im-doing-now" class="slide level2">
+<h2>What I’m doing now</h2>
+<ol start="0" type="1">
+<li>Longview-funded: <a href="https://daaronr.github.io/ea_giving_barriers/index.html">‘Barriers to effective giving’</a></li>
+</ol>
+<ul>
+<li><p>Categorization and links to Economics and Psychology ‘theory’</p></li>
+<li><p>Meta-analysis and synthesis</p></li>
+<li><p>Field experiments and trials in large-scale contexts</p></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<ol type="1">
+<li><a href="https://rethinkpriorities.github.io/ea_data_public/demog.html">EA Survey and ‘movement building’</a></li>
+</ol>
+<ul>
+<li><p>Survey methods: representativeness, survey design</p></li>
+<li><p>Identifying key questions for ‘tracking a movement and its impact’, e.g.,</p>
+<ul>
+<li>“Which people are likely to contribute the most; ‘selecting’ where to promote’” (ML and inference)</li>
+<li>“What will the impact of the EA community be in 10-20 years?” (APC modeling)</li>
+<li>Do anticipated donations tend to exceed actual donations and when/why</li>
+</ul></li>
+<li><p>Analysis: Visualisation, descriptive, predictive, and</p></li>
+</ul>
+<p>…</p>
+</section>
+<section class="slide level2">
+
+<ol start="2" type="1">
+<li>Outreach and message testing</li>
+</ol>
+<ul>
+<li><p>Receptiveness to parts of EA message</p></li>
+<li><p>Support for policies (e.g., animal welfare)</p></li>
+</ul>
+<ol start="3" type="1">
+<li><p>Future work: moral weights, measurement of satisfaction, ‘near-term’ (global health) evaluation, ‘shallow reviews’</p></li>
+<li><p>Support and guidance to other RP projects (e.g., modeling the meat industry; designing behaioural trials)</p></li>
+<li><p>Connection with academia; publishing, recruiting, advising students</p></li>
+</ol>
+</section></section>
+<section>
+<section id="effective-altruism-and-global-priorities" class="title-slide slide level1">
+<h1>Effective altruism and global priorities</h1>
+<iframe src="http://slatestarcodex.com/blog_images/eamap.jpg" width="768" height="500px">
+</iframe>
+</section>
+<section id="what-are-the-important-cause-areas" class="slide level2">
+<h2>What are the ‘important cause areas’?</h2>
+<p>Near term, Long-term future, Animal welfare, Prioritization research and ethics</p>
+</section>
+<section id="near-term" class="slide level2">
+<h2>Near-term</h2>
+<ul>
+<li>Global health, environmental</li>
+<li>Extreme poverty</li>
+<li>Mental health</li>
+<li>Manmade/political suffering</li>
+<li>Global warming</li>
+</ul>
+<center>
+<p><img data-src="https://www.researchgate.net/publication/325356789/figure/fig1/AS:629990404141056@1527212825000/environmental-sources-of-childhood-lead-exposure-20.png" width="400" /></p>
+</center>
+</section>
+<section id="long-term" class="slide level2">
+<h2>Long-term</h2>
+<center>
+<p><img data-src="https://39669.cdn.cke-cs.com/cgyAlfpLFBBiEjoXacnz/images/d7cd64411950fa55186030ee6c7ceb77143e80dfd5373ed5.png" width="600" /></p>
+</center>
+<ul>
+<li>Existential risk</li>
+<li>‘S-risk’ (suffering)</li>
+<li>Population growth/expansion</li>
+</ul>
+<p><small></p>
+<p>Global catastrophic risks: Artificial Intelligence ‘alignment’, Bio risks and epidemics, Nuclear/political </small></p>
+</section>
+<section id="animal-welfare" class="slide level2">
+<h2>Animal welfare</h2>
+<div style="margin-left: 20%;">
+<p><img data-src="https://images.ctfassets.net/ohf186sfn6di/1fZqBTbGuAgiqAoWOKECIi/ad8928a241ab4c76df8e32db644d0631/Lewis_3.jpg" width="600" alt="Land animals in factory farms, plot over time" /></p>
+</div>
+<ul>
+<li>Factory farming and fishing</li>
+<li>Wild animal welfare</li>
+</ul>
+<aside class="notes">
+<p>Land animals in factory farms, plot over time</p>
+<font size="1"> </font>
+</aside>
+</section>
+<section class="slide level2">
+
+<center>
+<img data-src="images/gpi_research.png" width="400" alt="GPI research agenda" />
+</center>
+</section>
+<section class="slide level2">
+
+<p>E.g.,</p>
+<ul>
+<li><p>How to create better systems for creating and disseminating knowledge</p></li>
+<li><p>Whether and how to ‘discount’ future individuals (income or happiness)?</p></li>
+<li><p>How to make choices under moral uncertainty</p></li>
+<li><p>How to value ‘more happy people’ versus ‘happier people’ (population ethics)</p></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<iframe src="https://globalprioritiesinstitute.org/research-agenda-web-version/" width="768" height="800px">
+</iframe>
+</section></section>
+<section>
+<section id="ea-perspectives-why-do-we-need-research-what-should-research-do" class="title-slide slide level1">
+<h1>EA perspectives: Why do we need research, what should research do?</h1>
+<ol type="1">
+<li><p>Defining a moral, value and choice framework, working out thorny moral decision-optimization issues</p></li>
+<li><p>Empirical measurement of value and ‘what works to achieve it’</p></li>
+<li><p>Empirical evidence on persuasion: ‘how to get people to act pro-socially and effectively’</p></li>
+</ol>
+</section>
+<section class="slide level2">
+
+<p><strong>Defining a moral framework, considering ‘what has value’, and ‘how to learn and choose’?</strong></p>
+<p>… how to value things and be consistent, how to use uncertainty and information in making altruistic choices</p>
+<div class="fragment">
+<p>E.g.,</p>
+<ul>
+<li><p>moral weights</p></li>
+<li><p>population ethics</p></li>
+<li><p>moral uncertainty .</p></li>
+</ul>
+</div>
+</section>
+<section class="slide level2">
+
+<p>From GPI agenda:</p>
+<blockquote>
+<p>Under what conditions would a social planner or philanthropist prioritise policies that primarily increase social welfare in the far future rather than in the near term? For instance, under what condition would such agents prioritise saving for future generations (Ramsey 1928) or reducing the risk of human extinction (Baranzini and Bourguignon 1995)?</p>
+</blockquote>
+<blockquote>
+<p>Should one have the same levels of epistemic modesty about unusual moral views as one should about unusual empirical views?</p>
+</blockquote>
+<div class="fragment">
+<blockquote>
+<p>To what extent should we be risk averse in our approach to doing good, and what are the implica/tions of reasonable risk aversion for global prioritisation? (Quiggin 1982…)</p>
+</blockquote>
+<blockquote>
+<p>Social welfare criteria that are used to compare states that differ in population size typically specify a critical welfare level at which lives that are added to the population have zero contributive value to social welfare (Blackorby et al. 1995…). What kinds of lives have zero contributive value in this sense (Cockburn et al. 2014…)?</p>
+</blockquote>
+</div>
+</section>
+<section class="slide level2">
+
+<p><strong>Empirical measurement informs ‘production function for good’</strong></p>
+<ul>
+<li><p>‘What has value and moral worth?’ (e.g., sentience research)</p></li>
+<li><p>How to measure value? (e.g., pain/pleasure DALY)</p></li>
+<li><p>How to achieve value?</p></li>
+<li><p>Direct interventions and policies, direct/indirect, short and LT impacts</p></li>
+<li><p>Very long term impacts, inference with deep uncertainties</p></li>
+</ul>
+<div class="fragment">
+<blockquote>
+<p>Should we loosen migration restrictions to increase global welfare? What is a politically feasible level of migration? (from <a href="https://docs.google.com/document/d/1A-AJLTbukninH_enX0Ex_w-8S4dWj8TB4_-Qi1KGPvQ/edit#heading=h.u8xi93xmhjug">Rhys-Bernard syllabus</a>)</p>
+</blockquote>
+<blockquote>
+<p>Estimating, in terms of SWB, the impact of potentially highly-effective interventions, including: psychotherapy for common mental disorders; cataract surgery for blindness; deworming tablets to improve lifelong earnings (from <a href="https://www.happierlivesinstitute.org/research-agenda.html">Happier lives institute</a> research priorities)</p>
+</blockquote>
+<aside class="notes">
+<p><font size="1"> <!--   Empirical:
+-   Measurement of 'pain and pleasure' informing moral worth and how to measure the success of interventions
+-   Interventions -- which ones work, how effective are they
+-   Very hard ones -- predicting long term and areas of deep uncertainty
+--></p>
+</font>
+</aside>
+</div>
+</section>
+<section class="slide level2">
+
+<p><strong>Empirical (behavioural)</strong> … How to get people and institutions to care about others (altruism) and about being effective in doing so?**</p>
+<p><a href="https://daaronr.github.io/dualprocess/GPI_barriers_evidence_sc.html#/4/3"><img data-src="images/barriers_presentation_slide.png" alt="From barriers to effective giving presentation" />?</a></p>
+</section>
+<section class="slide level2">
+
+<ul>
+<li><p>Barriers to considering effectiveness and acting effectively (my focus – open project <a href="https://daaronr.github.io/ea_giving_barriers/index.html">HERE</a>)</p></li>
+<li><p>Applied work : message testing, information and choice-architecture</p></li>
+</ul>
+</section>
+<section id="open-philanthropy" class="slide level2">
+<h2>Open Philanthropy</h2>
+<p><small></p>
+<p>“Technical and Philosophical Questions That Might Affect Our Grantmaking”</p>
+<p></small></p>
+<p><a href="https://www.openphilanthropy.org/blog/technical-and-philosophical-questions-might-affect-our-grantmaking#top"><img data-src="images/open_phil_questions.png" alt="Open phil key impactful questions" /></a></p>
+<p><small></p>
+<p>See also: this [list of lists(<a href="https://forum.effectivealtruism.org/posts/MsNpJBzv5YhdfNHc9/a-central-directory-for-open-research-questions" class="uri">https://forum.effectivealtruism.org/posts/MsNpJBzv5YhdfNHc9/a-central-directory-for-open-research-questions</a>)]</p>
+<p></small></p>
+</section></section>
+<section>
+<section id="how-research-in-ea-differs-from-research-in-academia-motivations-how-success-is-measured" class="title-slide slide level1">
+<h1>How research in EA differs from research in academia (motivations, how success is measured)</h1>
+
+</section>
+<section id="academia-vs-ea-rethink-priorities" class="slide level2">
+<h2>Academia vs EA (Rethink Priorities)</h2>
+<p>Academia:</p>
+<ul>
+<li><p>Publications, grants, citations, students placed in jobs, awards</p></li>
+<li><p>You need to be ‘first to publish’ on a new topic; supporting evidence less valued</p></li>
+</ul>
+<p><br />
+</p>
+<div class="fragment">
+<p>RP:</p>
+<ul>
+<li>Impact on funds allocated and ‘influence’ on decisionmakers</li>
+<li>Publications and grants as a means to an end; discussion of how much to publish traditionally versus other outlets</li>
+</ul>
+<blockquote>
+<p>model estimates impact by considering the probability of our influence targets updating in the correct direction … amount of money and resources that are changed, how much better (or worse) that change is, the counterfactual years of credit due to the work, and the costs of the project.</p>
+</blockquote>
+</div>
+</section>
+<section id="operationalizing-which-research-to-prioritize" class="slide level2">
+<h2>Operationalizing: ‘Which research to prioritize’?</h2>
+<p>’How to measure research impact?</p>
+<iframe src="https://www.getguesstimate.com/models/17702" width="768" height="600px">
+</iframe>
+</section>
+<section class="slide level2">
+
+<p>Money-metric impact of a random-ish sample of projects:</p>
+<div class="fragment">
+<p>‘Multiplying the uncertain estimates of’ (Bayesian):</p>
+<ul>
+<li>Probability our research changes the “influence-target’s” choice <span class="math inline">\(\times\)</span></li>
+<li>probability this is in the right direction <span class="math inline">\(\times\)</span></li>
+<li>Funds affected <span class="math inline">\(\times\)</span></li>
+<li>Proportional increase in the funds’ impact <span class="math inline">\(\times\)</span></li>
+<li>“Counterfactual years impacted”</li>
+</ul>
+</div>
+<div class="fragment">
+<p>Divide by project cost</p>
+<p><span class="math inline">\(\rightarrow\)</span> “Impact per dollar spent”</p>
+<p><span class="math inline">\(\rightarrow\)</span> Extrapolate to total value of RP</p>
+</div>
+</section>
+<section id="changing-the-game-ideas-for-more-productive-system-of-peer-feedback-and-credibility" class="slide level2">
+<h2>Changing the game: Ideas for more productive system of peer feedback and credibility</h2>
+<p>The EA research landscape - a new ‘funder’ and consumer of research</p>
+<div class="fragment">
+<p>We care about research value, accuracy, and impact, not as mch ‘innovation’ or theoretical rigor</p>
+</div>
+<div class="fragment">
+<p>We are not so tied to traditional institutions (publishers, traditional grantmakers)</p>
+</div>
+</section>
+<section class="slide level2">
+
+<p><span class="math inline">\(\rightarrow\)</span> <a href="https://docs.google.com/document/d/1GFISlF5TieCuA6jDYkYlNWaEpuEYrr_zTmaVpTfBg4A/edit#heading=h.iqq0k5uqyg8x">‘Evaluated project repo’</a> rather than frozen publications?</p>
+</section>
+<section id="can-we-help-academia-escape-the-journal-publication-collective-action-problem" class="slide level2">
+<h2><em>Can we help academia escape the journal publication collective-action problem?</em></h2>
+</section></section>
+<section>
+<section id="how-you-can-get-involved-opportunities" class="title-slide slide level1">
+<h1>How you can get involved; opportunities</h1>
+
+</section>
+<section id="fhi" class="slide level2">
+<h2>FHI</h2>
+<p><a href="https://www.fhi.ox.ac.uk/vacancies/"><img data-src="images/fhi_jobs.png" alt="FHI: hiring, training, scholarships, fellowships" /></a></p>
+</section>
+<section id="rethink-priorities" class="slide level2">
+<h2>Rethink Priorities</h2>
+<p><a href="https://www.rethinkpriorities.org/jobs">Rethink Priorities is hiring</a> – “Staff Researcher (Global Health and Development)”</p>
+<ul>
+<li><p>several positions</p></li>
+<li><p>and very soon “a longtermist and a meta/movement building person”</p></li>
+</ul>
+</section>
+<section id="gpi-grants-action" class="slide level2">
+<h2>GPI, Grants, Action</h2>
+<ul>
+<li><p><a href="https://www.forethought.org/fellowship-2021-apply-now">GPI/Forethought fellowship</a>, [pre-doctoral](<a href="https://globalprioritiesinstitute.org/wp-content/uploads/GPI-Predoctoral-Research-Fellow-Economics.pdf" class="uri">https://globalprioritiesinstitute.org/wp-content/uploads/GPI-Predoctoral-Research-Fellow-Economics.pdf</a></p></li>
+<li><p><a href="https://funds.effectivealtruism.org/apply-for-funding">EA Funds grants</a>, e.g,, for “Promising research into animal advocacy or animal well-being”</p></li>
+<li><p>Action: <a href="https://www.charityentrepreneurship.com/">Charity Entrepreneurship incubator</a></p></li>
+<li><p><a href="https://www.openphilanthropy.org/giving/guide-for-grant-seekers">Open Philanthropy grants</a></p></li>
+</ul>
+<aside class="notes">
+<p><font size="1"></p>
+<p>OP: ramping up, very interested in funding research but “In general, we expect to identify most giving opportunities via proactive searching and networking”</p>
+</font>
+</aside>
+</section>
+<section id="how-can-academics-support-and-do-eagp-research-within-universities" class="slide level2">
+<h2>How can academics support and do EA/GP research within universities</h2>
+<ul>
+<li><p>Contact EA organisations; present your work</p></li>
+<li><p>Help build open-content</p></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<p>Encourage your students</p>
+<ul>
+<li>to apply for GPI/FHI/RP fellowships and internships</li>
+<li>to engage with the <a href="https://effectivethesis.org/project/">Effective Thesis Project</a></li>
+</ul>
+</section>
+<section id="who-should-want-to-work-at-an-ea-org-like-rp-why-or-why-not" class="slide level2">
+<h2>Who should want to work at an EA org like RP? Why or why not?</h2>
+<aside class="notes">
+<p><font size="1"></p>
+<p>Note: RP and GPI differ dramatically in focus and approach; I’m mainly talking about RP.</p>
+</font>
+</aside>
+<p>YES if you (because you like)…</p>
+<ul>
+<li><p>Care about impact and social good; research outcomes, implications, applications</p></li>
+<li><p>Rigorous analytical framework (Philosophy, Economics, Statistics/data) <em>anchored and connected to the practical</em></p></li>
+<li><p>“Interdisciplinary” in the right way</p></li>
+<li><p>Positive, supportive environment: people motivated by <em>outcomes</em>, zero competitiveness/politics AFAIK</p></li>
+<li><p>High-achieving, super-literate and ‘switched on’ colleagues</p></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<p>NO if you want to…</p>
+<ul>
+<li><p>Focus on deeply theoretical ‘pure’ research without a direct connection to impact, a completely independent research agenda</p></li>
+<li><p>Earn a lot of money, have the long-term job security of ‘tenure’</p></li>
+</ul>
+<div class="fragment">
+<p>MAYBE if you want to…</p>
+<ul>
+<li><p>Teach/work with a large group of motivated young people, guide careers</p></li>
+<li><p>Publish in academic journals and the equivalent, present at academic conferences</p></li>
+<li><p>Prestige/public intellectual</p></li>
+</ul>
+</div>
+</section>
+<section id="which-fields" class="slide level2">
+<h2>Which fields?</h2>
+<p>Economics: Both theory and empirical/application, development economics, behavioral, preference and choice theory, macrroeconomics, and more</p>
+<p>Philosophy: The answers to ‘arcane’ philosophical questions are now driving very important decisions and uses of funds</p>
+<p>Psychology and behavioral science: “How to get people to care”, “how to do messaging and how to measure the results”</p>
+</section>
+<section class="slide level2">
+
+<p>Maths, statistics, computer science: AI-risk, data science, mathematics of uncertainty and forecasting, controlling technology, statistical experimental design…</p>
+<p>Political science and international relations/area studies</p>
+<p>Biology and neuroscience (RP just hired an entymologist): Wild animal welfare, animal sentience</p>
+<p>Other sciences: Existential risks (natural and human)</p>
+</section>
+<section class="slide level2">
+
+<ul>
+<li><p>EA tries to be analytically rigorous and to make decisions based on empirical evidence</p></li>
+<li><p>There is a lot of money your research can move</p></li>
+<li><p>There is money to get the research done (e.g., FHI, Open Phil, CEA, Center for Long Term risk…)</p></li>
+<li><p>A diverse set of relevant research areas, …</p>
+<ul>
+<li>‘defining the neutral point of subjective well being’ of interes</li>
+<li>Animal science</li>
+<li>QALY and DALY definition and measurement</li>
+<li>AI Safetey</li>
+<li>Giving and messaging</li>
+<li>Much more.</li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p><font size="1"></p>
+</font>
+</aside>
+</section></section>
+    </div>
+  </div>
+
+  <script src="ea_research_priorities_opportunities_rjs_files/reveal.js-3.3.0.1/lib/js/head.min.js"></script>
+  <script src="ea_research_priorities_opportunities_rjs_files/reveal.js-3.3.0.1/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+        // Vertical centering of slides
+        center: true,
+        // Transition style
+        transition: 'fade', // none/fade/slide/convex/concave/zoom
+        // Transition style for full page slide backgrounds
+        backgroundTransition: 'default', // none/fade/slide/convex/concave/zoom
+
+
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'ea_research_priorities_opportunities_rjs_files/reveal.js-3.3.0.1/plugin/notes/notes.js', async: true },
+          { src: 'ea_research_priorities_opportunities_rjs_files/reveal.js-3.3.0.1/plugin/zoom-js/zoom.js', async: true },
+        ]
+      });
+    </script>
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+<script>
+  (function() {
+    if (window.jQuery) {
+      Reveal.addEventListener( 'slidechanged', function(event) {  
+        window.jQuery(event.previousSlide).trigger('hidden');
+        window.jQuery(event.currentSlide).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+
+  </body>
+</html>
