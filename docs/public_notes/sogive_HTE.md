@@ -1,5 +1,7 @@
 # Reinstein: Notes on Sanjay Joshi appearance on Sogive podcast
 
+> Looking on SoGive's page, I don't understand some of the  metrics like the [Oxfam one](https://app.sogive.org/#charity?charityId=oxfam)
+
 Moves 1 million pounds/year? UK focus?
 
 Sogive starts with most popular charities and evaluate
