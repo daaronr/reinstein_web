@@ -1413,7 +1413,7 @@ Economics: Both theory and empirical/application, development economics, behavio
 
 Philosophy: The answers to 'arcane' philosophical questions are now driving  very important decisions and uses of funds
 
-Psychology and behavioral science: "How to get people to care", "how to do messaging and how to measure the results"
+Psychology and behavioral science, marketing: "How to get people to care", "how to do messaging and how to measure the results"
 
 ---
 
@@ -1424,6 +1424,9 @@ Political science and international relations/area studies
 Biology and neuroscience (RP just hired an entymologist): Wild animal welfare, animal sentience
 
 Other sciences: Existential risks (natural and human)
+
+Other humanities - some possibilities discussed [here](https://forum.effectivealtruism.org/posts/oTJ5vMNwdWiHj2iKL/humanities-research-ideas-for-longtermists) (considering 'longtermism') 
+
 
 
 ---
@@ -1461,3 +1464,26 @@ Short of leaving academia, how can academics optimize their impact despite acade
 - If you are doing research just to ‘get a top publication’, reconsider this
      - Consider writing the ‘second or third paper’ that provides the evidence that is needed
 - See the advice from  “80000 hours”
+
+
+Question: Like the process of building a start-up company when research reaches a certain stage of development in academia, is there a similar/parallel route for research funded by EA? 
+Response: As a participant reminded me, for charitable activities there is the  Incubation Program - CHARITY ENTREPRENEURSHIP, and some other things mentioned below
+
+ An app was mentioned as a route for research insights being applied in the wider world. 
+I wonder, funding the app, are there funding routes within EA or would it eventually require funding from private equity/venture capital, and would this then distort the original aim of the app? (answer - Charity Incubator / charityentrepeneurship.com / sparkwave.tech)
+
+
+You talk about many fields and skills, would there be a training/ network you would suggest to join/follow to effectively contribute?
+
+Response: Can you clarify your question? 
+There are definitely some workshops and trainings, such as those run by GPI. 
+Here is a list of syllabi: https://docs.google.com/document/d/1kYNd7URm0TPClM4iDIM_cjtpsOK9Vp1_HDbR2tMzVTQ/edit
+
+I’d like to be involved in creating more ‘research skills for global priorities/EA’ training myself, perhaps outside of academia
+
+
+
+Can we get involved with rethink priorities part time? (Michal Strahilevitz)
+Response (summarizing my vocal answer): 
+You could reach out to us to discuss your research and our work, definitely!
+Also, we have and do hire people part-time and on a project basis
