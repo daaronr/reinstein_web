@@ -10,7 +10,7 @@ Slides linked [HERE](https://daaronr.github.io/reinstein_web/ea_research_priorit
 
 - [Guide: Researching and writing for Economics students](https://daaronr.github.io/writing_econ_research/about-this-work.html)
 
-- [Alternateves to academic journals proposal](https://docs.google.com/document/d/1GFISlF5TieCuA6jDYkYlNWaEpuEYrr_zTmaVpTfBg4A/edit#heading=h.iqq0k5uqyg8x)
+- [Alternatives to academic journals proposal](https://docs.google.com/document/d/1GFISlF5TieCuA6jDYkYlNWaEpuEYrr_zTmaVpTfBg4A/edit#heading=h.iqq0k5uqyg8x)
 
 
 ## EA principles, some key hubs
@@ -60,6 +60,8 @@ Slides linked [HERE](https://daaronr.github.io/reinstein_web/ea_research_priorit
 - Open Philanthropy ["Technical and Philosophical Questions That Might Affect Our Grantmaking"](https://www.openphilanthropy.org/blog/technical-and-philosophical-questions-might-affect-our-grantmaking)
 
 - [Rethink Priorities 2020 Impact and 2021 Strategy (includes broad agenda)](https://forum.effectivealtruism.org/posts/33AnPajNYmNrdXQbj/rethink-priorities-2020-impact-and-2021-strategy)
+
+- [8000 Hours research questions by discipline](https://80000hours.org/articles/research-questions-by-discipline/)
 
 - [Happier lives institute](https://www.happierlivesinstitute.org/research-agenda.html) research priorities
 
