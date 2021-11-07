@@ -3,7 +3,7 @@ title: "About"
 date: "7 Nov 2021"
 ---
 
-{{< figure class="avatar" src="/me_sweater_formal.jpg" >}}
+{{< figure class="avatar" src="static/me_sweater_formal.jpg" >}}
 
 **Dr. David Reinstein**
 
