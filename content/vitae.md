@@ -1,29 +1,40 @@
 ---
+title: CV for Dr. David Reinstein, Senior Economist, Rethink Priorities.
 layout: cv
-title: CV for Dr. David Reinstein
 ---
 
 # Dr. David Reinstein
 
-**[Distinguished Researcher, Rethink Priorities](https://www.rethinkpriorities.org/our-team)**
+**[Senior Economist, Rethink Priorities](https://www.rethinkpriorities.org/our-team)**
+
+Visiting Assistant Professor, University of Maastricht
 
 **Visiting Assistant Professor, University of Maastricht**
 
-*[Download pdf CV here](reinstein_cv_pdf.pdf)* - *[Link to web CV (this page)](https://daaronr.github.io/markdown-cv/)*
+*[Download pdf CV here](reinstein_cv_pdf.pdf)*
 
 
-**Background:** I am an Economist with 25 years experience at UC Berkeley, the University of Essex and the [University of Exeter](http://business-school.exeter.ac.uk/about/people/profile/index.php?web_id=David_Reinstein), and in other consulting and teaching roles. My work involved performing [economic research](#pubs), [sharing research tools](https://daaronr.github.io/writing_econ_research/about-this-work.html), and disseminating and promoting the [impact of my research](#projects); as well as [teaching](#teaching) (at undergraduate, postgraduate, and professional/executive levels), research supervision, and educational administration and [entrepreneurship](#impact). I completed my Ph.D. under the supervision of Professor Emmanuel Saez at the University of California, Berkeley in 2006. I have [published a range of peer-reviewed research](#pubs) and done consulting and impact work involving behavioral economics, lab, field (A/B testing) and natural experimentation, panel-data econometrics and data science, game theory and mechanism design, and the practical applications of these. I am an active supporter of [open, robust, replicable and collaborative science](https://www.bitss.org/people/david-reinstein/), of the use of computer science and data science tools in Economics (e.g., [R-Markdown/Bookdown dynamic documents](https://daaronr.github.io/writing_econ_research/about-this-work.html)), and of [effective charitable giving](https://daaronr.github.io/ea_giving_barriers/outline.html).
+<div id="webaddress">
+<a href="daaronr@gmail.com">daaronr@gmail.com</a>
+| <a href="https://davidreinstein.wordpress.com/">Wordpress page</a>
+</div>
 
 
-\
+<br>
+
+**Background:** I am an Economist with 25 years experience at UC Berkeley, the University of Essex and the [University of Exeter](http://business-school.exeter.ac.uk/about/people/profile/index.php?web_id=David_Reinstein), and in other consulting and teaching roles. My work involved performing [economic research](#pubs), [sharing research tools](https://daaronr.github.io/writing_econ_research/about-this-work.html), and disseminating and promoting the [impact of my research](#projects); as well as [teaching](#teaching) (at undergraduate, postgraduate, and professional/executive levels), research supervision, and educational administration and [entrepreneurship](#impact). I completed my Ph.D. under the supervision of Professor Emmanuel Saez at the University of California, Berkeley in 2006. I have [published a range of peer-reviewed research](#pubs) and done consulting and impact work involving behavioral economics, lab, field (A/B testing) and natural experimentation, panel-data econometrics and data science, game theory and mechanism design, and the practical applications of these. I am an active supporter of [open, robust, replicable and collaborative science](https://www.bitss.org/people/david-reinstein/), of the use of computer science and data science tools in Economics (e.g., [R-Markdown/Bookdown dynamic documents](https://daaronr.github.io/writing_econ_research/about-this-work.html)), and of [effective charitable giving](https://daaronr.github.io/ea_giving_barriers/index.html).
+
+<br>
 
 *In 2021 I left my secure academic post:*
 
-1. To pursue greater impact as a researcher at [Rethink Priorities](https://www.rethinkpriorities.org/our-team), a think tank "dedicated to figuring out the best ways to make the world a better place." RP is closely tied to the [Effective Altruism](https://en.wikipedia.org/wiki/Effective_altruism) movement.
+1. To pursue greater impact as a researcher at [Rethink Priorities](https://www.rethinkpriorities.org/our-team), a think tank "dedicated to figuring out the best ways to make the world a better place." RP is closely tied to the [Effective Altruism](https://en.wikipedia.org/wiki/Effective_altruism) movement. My research into [effective charitable giving](https://daaronr.github.io/ea_giving_barriers/index.html) is made possible by an independent grant.
+
 
 2. To build tools and programs promoting open, collaborative, and robust  research, as well as teaching, learning, and research training outside of traditional university degree schemes.
 
-\
+<br>
+
 
 
 **Research interests, work and goals**:
@@ -174,7 +185,9 @@ Advisory boards, collaboration and affiliations: Donor’s Voice [Academic advis
 
 
 
-## Selected popular essays and outreach
+## Selected non-academic essays and outreach
+
+[
 
 [Should we help companies tailor prices to your wage packet?](https://theconversation.com/should-we-help-companies-tailor-prices-to-your-wage-packet-47719) (The Conversation, 2015)
 
@@ -183,6 +196,21 @@ Advisory boards, collaboration and affiliations: Donor’s Voice [Academic advis
 [Charitable Giving: Applying and testing research insights](https://docs.google.com/document/d/1zyYYWD8Z9b_DGUeNavZazJFPeyjE75-5QbGLrEC2WMM/pub)
 
 <br>
+
+[Occasional posts, regular engagement on the EA Forum](https://forum.effectivealtruism.org/users/david_reinstein)
+
+<br>
+
+*Podcasts/podcast involvement:*
+
+["Found in the Struce"](https://anchor.fm/david-reinstein)
+
+[The EA Forum podcast](https://anchor.fm/ea-forum-podcast) (co-founder, regular reader)
+
+[Profusion data podcast](https://profusiondatapodcast.buzzsprout.com/)
+
+<br>
+
 
 ## Teaching and university administration {#teaching}
 
@@ -210,6 +238,8 @@ Scientific Data (Nature), [editorial board](https://www.nature.com/sdata/about/e
 
 ## Awards and Grants {#grants}
 
+2021
+Independent grant to pursue research into motivators and barriers to effective giving, and the impact of information about effectiveness on giving choices.
 `2017`
 Giving for Impact grant
 
@@ -286,9 +316,10 @@ Systems: Command line (Bash shell configuration and scripting), Mac, Linux, Wind
 
 Citizenship: USA, UK; spouse of EU citizen
 
-Preferred and frequented locations: Exeter UK, West of Boston, Western Massachussetts, Upstate NY, Tenerife, Berkeley CA, LA, Leiden, Maastricht, Seoul
+Preferred and frequented locations: West of Boston, Western Massachussetts,Exeter UK, Upstate NY, Tenerife, Berkeley CA, LA, Leiden, Maastricht, Seoul
 
 Hobbies: Being a jazz snob, musician (trombone and tuba), hiking, outdoor swimming/snorkeling/scuba
+
 
 Languages: English (native), Spanish, Portuguese
 

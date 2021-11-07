@@ -1,24 +1,23 @@
 ---
-date: "27 Feb 2021"
-title: About
+title: "About"
+date: "7 Nov 2021"
 ---
 
 {{< figure class="avatar" src="/me_sweater_formal.jpg" >}}
 
 **Dr. David Reinstein**
 
-**Economics, social science, data and statistics, charitable giving and effective altruism, musings**
+**Economics, social science, statistics, data science and field experiments, charitable giving and effective altruism, research and writing musings**
 
 
-PhD (University of California, Berkeley, E  conomics) 
+PhD (University of California, Berkeley, Economics) 
 
 
-[Distinguished Researcher, Rethink Priorities](https://www.rethinkpriorities.org/our-team) and Visiting Assistant Professor, University of Maastricht 
-  
+[Senior Economist, Rethink Priorities](https://www.rethinkpriorities.org/our-team) and Visiting Assistant Professor, University of Maastricht. Previous positions: Lecturer (University of Essex),  Senior Lecturer (Exeter University)
 
-\
-\
-    
+
+
+<br> 
 
 ## My research and impact work focuses on
 
@@ -28,12 +27,10 @@ PhD (University of California, Berkeley, E  conomics)
 
 (iii) building and measuring tools and policies aiming to improve social outcomes. 
 
-I combine microeconomic modeling, analysis of observational data, and field experiments and trials to bring evidence to a variety of interconnected questions, and provide tools for philanthropists, nonprofit organisations, governments, and managers
+I combine microeconomic modeling, analysis of observational data, and field experiments and trials to bring evidence to a variety of interconnected questions, and provide tools for philanthropists, nonprofit organisations, governments, and managers.
 
 I work to produce and encourage open and collaborative research, learning, and positive impact outside of traditional settings.
-
-\
-\ 
+<br>
 
 
 ## I published papers... 
@@ -46,36 +43,39 @@ I work to produce and encourage open and collaborative research, learning, and p
 
 *Applied microeconomic/behavioral theory:* [“Losing Face” (2018)](https://www.dropbox.com/s/tx4yfun1ctxuezw/LosingFace.pdf?dl=0), [“Anonymous Rituals” (2012)](https://www.sciencedirect.com/science/article/pii/S0167268111001806), [“Efficient Consumer Altruism and Fair Trade Products” (2012)](https://www.researchgate.net/publication/239768339_Efficient_Consumer_Altruism_and_Fair_Trade_Products)
 
-\
-\ 
+<br>
+
 
 ## The new way
 
-Peer review is great (and *peer evaluation* is better), but in the 2020's  we can do better than paying Elsevier&co to "publish" static pdfs for us. <!-- link to discussion/rant here --> I'm working to research/write/gain-critical-feedback in dynamic, collaborative, open/transparent, and continuously-updated formats. Below, some work-in-progress:
+Peer review is great (and *peer evaluation* is better), but in the 2020's  we can do better than paying Elsevier&co to "publish" static pdfs for us. <!-- link to discussion/rant here --> I'm working to research/write/gain-critical-feedback in dynamic, collaborative, open/transparent, and continuously-updated formats. 
+
+Further discussion: See the ['unjournal' discussion and project](https://bit.ly/unjournal)
+
+<br> 
+
+**Below, some work-in-progress in this mode:**
 
 
 <!-- Todo: put up at least one 'traditional research project in open format' here -->
 
-*A broad project of synthesis and meta-analysis:* [Increasing effective charitable giving: The puzzle, what we know, what we need to know next](https://daaronr.github.io/ea_giving_barriers/index.html)
+*A broad project of synthesis and meta-analysis:* [Increasing effective charitable giving: The puzzle, what we know, what we need to know next](https://bit.ly/eg_barriers)
 
 *Reporting on an experimental research project project:* [Impact of impact treatments on giving: field experiments and synthesis](https://daaronr.github.io/dualprocess/)
 
 
-\
-
 *An outreach/impact project:* [Innovations in Fundraising](innovationsinfundraising.org) 
 
-\
-\
 
 *Teaching/learning and research resource 'web books', and building and sharing knowledge and notes*
 
 - [Researching and writing for Economics students](https://daaronr.github.io/writing_econ_research/about-this-work.html),
-- [Microeconomics (MSc teaching)](https://daaronr.github.io/micro-giving-pub/)
-- [Statistics, econometrics, experiment and survey methods, data science: Notes](https://daaronr.github.io/metrics_discussion/introduction.html) 
 
-\
-\
+- [Microeconomics (MSc teaching)](https://daaronr.github.io/micro-giving-pub/)
+
+- [Statistics, econometrics, experiment and survey methods, data science: Notes (in progress)](https://daaronr.github.io/metrics_discussion/introduction.html) 
+
+<br> 
 
 ## Other projects and affiliations
 
