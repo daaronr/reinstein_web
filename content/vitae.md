@@ -7,7 +7,6 @@ layout: cv
 
 **[Senior Economist, Rethink Priorities](https://www.rethinkpriorities.org/our-team)**
 
-Visiting Assistant Professor, University of Maastricht
 
 **Visiting Assistant Professor, University of Maastricht**
 
@@ -38,7 +37,6 @@ Visiting Assistant Professor, University of Maastricht
 
 
 **Research interests, work and goals**:
-
 
 
 (i) the determinants and motivators of (effective) charitable giving,
