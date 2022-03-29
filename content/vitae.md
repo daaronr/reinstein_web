@@ -116,6 +116,11 @@ Congressional Budget Office, Special Studies Division, Washington, DC. Economics
 
 ## Entrepreneurial and Impact Projects {#impact}
 
+*Effective Altruism Market Testing team (EAMT)* [Public 'gitbook' action and reporting space](https://effective-giving-marketing.gitbook.io/untitled/), funder: Longview philanthropy
+
+'Unjournal', to organize and fund 'public journal-independent evaluation’ of EA-relevant/adjacent research projects; [Project link](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/); Funder: ACX/Long-term Future Fund
+
+
 [Innovations in fundraising](innovationsinfundraising.org): ESRC-funded impact project, partners including the Centre for Effective Altruism, Giving for Impact,  City Philanthropy, Center for Advanced Hindsight; see [giveifyouwin.org](http://giveifyouwin.org) and [innovationsinfundraising.org](http://innovationsinfundraising.org)
 
 University of Essex (2014): Founded joint undergraduate program with SKKU Global Economics (South Korea)
@@ -174,7 +179,6 @@ Advisory boards, collaboration and affiliations: Donor’s Voice [Academic advis
 “[Does one contribution come at the expense of another? Empirical evidence on substitution between charitable donations](https://www.dropbox.com/s/42p2rknjeevj660/reinstein_BLINDED_exptpaper_EI_smallpostedits.pdf?dl=0)” (preparing updated version based on new lab and field experiments with  Gerhard Riener \[Dusseldorf\] and Danielle Vance-McMullen \[DePaul\])
 
 “[Exclude the bad actors, or learn about the group](https://ideas.repec.org/p/esx/essedp/10010.html)”, (preparing updated version based on new experiments with David Hugh-Jones and Hannes Titeca)
-
 
 [Increasing effective charitable giving: The puzzle, what we know, what we need to know next (with Nick Fitz, Ari Kagan, Janek Kretschmer, and Luke Arundel)](https://daaronr.github.io/ea_giving_barriers/index.html)
 
@@ -236,8 +240,12 @@ Scientific Data (Nature), [editorial board](https://www.nature.com/sdata/about/e
 
 ## Awards and Grants {#grants}
 
-2021
+`2022`
+ACX/Long-Term Future Fund grant to pilot the 'Unjournal', to organize and fund 'public journal-independent evaluation’ of EA-relevant/adjacent research, encouraging this research by making it easier for academics and EA-organization researchers to get feedback and credible ratings [Project link](https://effective-giving-marketing.gitbook.io/unjournal-x-ea-and-global-priorities-research/)
+
+`2021`
 Independent grant to pursue research into motivators and barriers to effective giving, and the impact of information about effectiveness on giving choices.
+
 `2017`
 Giving for Impact grant
 
