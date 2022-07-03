@@ -20,7 +20,11 @@ PhD (University of California, Berkeley, Economics)
 
 ## My research and impact work focuses on
 
-(i) the determinants and motivators of (effective) charitable giving,
+(i) **effective charitable giving and other-regarding behavior**,
+
+- what motivates it (see [this synthesis](https://daaronr.github.io/ea_giving_barriers/index.html)),
+- particularly considering the impact of effectiveness information,
+- and its impact.
 
 (ii) measuring social, psychological, and institutional influences on life choices and consumer behavior, and
 
@@ -66,7 +70,7 @@ Further discussion: See the ['unjournal' discussion](https://bit.ly/unjournal) a
 *A broad project of synthesis and meta-analysis:* [Increasing effective charitable giving: The puzzle, what we know, what we need to know next](https://bit.ly/eg_barriers)
 
 <br>
-*Reporting on an experimental research project project:* [Impact of impact treatments on giving: field experiments and synthesis](https://daaronr.github.io/dualprocess/)
+*Reporting on an experimental research project:* [Impact of impact treatments on giving: field experiments and synthesis](https://daaronr.github.io/dualprocess/)
 
 
 

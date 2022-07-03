@@ -322,7 +322,8 @@ Systems: Command line (Bash shell configuration and scripting), Mac, Linux, Wind
 
 Citizenship: USA, UK; spouse of EU citizen
 
-Preferred and frequented locations: West of Boston, Western Massachussetts,Exeter UK, Upstate NY, Tenerife, Berkeley CA, LA, Leiden, Maastricht, Seoul
+Preferred and frequented locations: Western Massachussetts (home),  West of Boston, Exeter UK, Upstate NY, Tenerife, Berkeley CA, LA, Leiden, Maastricht, Seoul
+
 
 Hobbies: Being a jazz snob, musician (trombone and tuba), hiking, outdoor swimming/snorkeling/scuba
 

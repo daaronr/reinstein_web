@@ -735,6 +735,10 @@ knitr::include_url("https://eaforum.issarice.com/posts/f6kg8T2Lp6rDqxWwG/list-of
 
 ## Research orgs (partial list):
 
+3 Jul 2022 -- much much bigger now, needs updating
+
+- Open philanthropy
+
 -   Future of Humanity Institute (about 70 including affiliates, fellows, affiliates)
 -   Global Priorities Institute (about 20 researchers/affiliates)
 -   Rethink Priorities (11 researchers, hiring more)
