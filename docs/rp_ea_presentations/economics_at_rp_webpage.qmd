@@ -1,11 +1,30 @@
 ---
 title: "Economics/Economists at Rethink Priorities "
 author: "David Reinstein"
-format: beamer
-fontsize: 10pt
+
+project:
+  type: website
+
+format:
+  html:
+    theme: cosmo
+    code-fold: true
+    code-tools: true
+    toc: true
+    number-sections: true
+    citations-hover: true
+    footnotes-hover: true
+execute:
+    freeze: auto # re-render only when source changes
+    warning: false
+    message: false
+    error: true
+comments:
+    hypothesis: true
 ---
 
-## References/sources
+
+# References/sources
 
 -   This presentation: [bit.ly/econatrp](https://bit.ly/econatrp)
 
@@ -17,9 +36,8 @@ fontsize: 10pt
 
 # What's RP? {.smaller}
 
-::: notes
-I assume you know, but in a (big) nutshell
-:::
+^[I assume you know, but in a (big) nutshell
+]
 
 -   Research and 'desk research' for EA/Global priorities
 -   Quantitative 'measurers'\^1:
@@ -122,7 +140,7 @@ Things I care about: lining up with concepts in the discipline? But I really car
 
 -   Limitations: Politics/management, journal games, less-engaged students
 
-::: notes
+^[
 Positives: A fairly supportive environment, research freedom, many great colleagues, moderate teaching, targets 'deep and rigorous theoretical work', some of very smarte people
 
 Limitations: academic politics and poor upper-management, countervailing rewards system, constant discussion of points/games (value drift), students
@@ -130,7 +148,7 @@ Limitations: academic politics and poor upper-management, countervailing rewards
 Standard publications as the only way to prove value; limits collaborative and nonstandard work
 
 UK academia rewards either 'REF-points publications', box-ticking accreditations, or building favor with executive administration
-:::
+]
 
 ## Rethinking my priorities (eyeroll)
 
