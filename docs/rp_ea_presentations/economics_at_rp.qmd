@@ -7,6 +7,8 @@ fontsize: 10pt
 
 ## References/sources
 
+-   This presentation: [bit.ly/econatrp](https://bit.ly/econatrp)
+
 -   [Should you do an economics PhD (or master's)?](https://forum.effectivealtruism.org/posts/xcXo2y5fraRoXrrAY/should-you-do-an-economics-phd-or-master-s) (EA Forum)
 
 -   [Effective Altruism: research priorities and opportunities](https://daaronr.github.io/reinstein_web/ea_research_priorities_opportunities_rjs_sc_notes_within.html#/how-research-in-ea-differs-from-research-in-academia-motivations-how-success-is-measured)
@@ -208,14 +210,11 @@ If you are here probably yes
 
 At least worth pursuing, unless you are interested in pure theory.
 
-
 . . .
 
-> We don't have job openings right now, but have general interest forms on our website people should definitely submit. If people are interested in AI work, Epoch is hiring (job ad on our page too) 
+> We don't have job openings right now, but have general interest forms on our website people should definitely submit. If people are interested in AI work, Epoch is hiring (job ad on our page too)
 
 > careers.rethinkpriorities.org. We should be hiring again for longtermism roles later in the year, so newsletter signup is always a good call to action
-
-
 
 ## Academia vs EA (Rethink Priorities) {.smaller}
 
@@ -267,7 +266,7 @@ $\rightarrow$ "Impact per dollar spent"
 
 $\rightarrow$ Extrapolate to total value of RP
 
-## Changing the game: 
+## Changing the game:
 
 The EA research landscape - a new 'funder' and consumer of research
 
@@ -299,7 +298,6 @@ $\rightarrow$ ['Evaluated project repo'](https://docs.google.com/document/d/1GFI
 
 **Why RP**
 
-
 -   You want to have an *impact* through your research and work → RP is more aligned to impact than academia
 
 -   Enhance the rigor of EA research (and maybe bring real impact to academia?)
@@ -328,7 +326,6 @@ $\rightarrow$ ['Evaluated project repo'](https://docs.google.com/document/d/1GFI
 -   Work with *really devoted colleagues*: Virtually no internal politics, gamesmanship, cynicism
 
 -   Part of EA ecosystem: entrepreneurial impact opportunities, cutting-edge of the conversation
-
 
 \
 
@@ -478,6 +475,10 @@ connections to academia, and willingness to invest in building methodological an
 -   Not automatically, but your research agenda may align with RP's work anyways
 
 -   And you can make a case for it to funders and stakeholders
+
+------------------------------------------------------------------------
+
+![](images/paste-CE1FA905.png)
 
 # Effective altruism and global priorities
 
