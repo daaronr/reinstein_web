@@ -1,0 +1,69 @@
+\# Separate project: Infrastructure to support independent researchers
+
+\## Persona interaction and motivation
+
+Positive encouragement and feedback. Virtual spaces, focus-mate alternative , tap in
+
+Collaborator matching -- Spencer Greenberg
+
+. . .
+
+(Aside: PA's supported by Kat Woods)
+
+Tying simpler incentives to people's research -- intermediate incentives
+
+\## Mentorship
+
+trees -- 30 people have 1 mentor ... people with knowledge have little time. Only worth it if the disciples have a high probability of being mentors.
+
+. . .
+
+1\. Reading groups at the bottom, organizer finds someone who did an internship at an org, people at the top are mentored by gurus
+
+2\. Top down ... find a few points at the top?
+
+3\. Glue the reading to people 1 level reading up
+
+\## Funding to right people -- Grantmakers don't have the time (or knowledge?) to judge
+
+Small opportunities get overlooked
+
+Independent researchers without strong pulbic track record, asymmetric information, experience good
+
+Solution: Impact markets = prize contests
+
+------------------------------------------------------------------------
+
+Grantmakers offer broad prizes as well as specific ones
+
+Independents sell a share of the potential to investors.. . .
+
+Investors will be in the social circles of the funders.
+
+. . .
+
+Impact markets for XPrize and DARPA
+
+Network with funders, bigger and bigger prize pools, test that the system works
+
+\## Difficulties accessing paywalled publications,
+
+Not a problem
+
+\## Credibility and feedback on research ... paths to impact
+
+Find problem, find solution, influence people.
+
+. . .
+
+Solution: People who are influential -- we set a system with webs of trust and pageranks
+
+Prediction markets and reputation markets
+
+Tie in with ResearchHub (coin based), Unjournal
+
+. . .
+
+"Attributed impact" adjusts to discourage 'ex-post successful but ex-ante hazardous' work
+
+Cooper Smout's credit algorithm

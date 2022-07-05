@@ -2,6 +2,7 @@
 title: "Economics/Economists at Rethink Priorities "
 author: "David Reinstein"
 format: revealjs
+fontsize: 10pt
 ---
 
 ## References/sources
@@ -12,7 +13,42 @@ format: revealjs
 
 -   [Working at Rethink Priorities (RP site)](https://careers.rethinkpriorities.org/)
 
-# My story, what I'm working on
+# What's RP? {.smaller}
+
+::: notes
+I assume you know, but in a (big) nutshell
+:::
+
+-   Research and 'desk research' for EA/Global priorities
+-   Quantitative 'measurers'\^1:
+-   Communicating w/ EAs/EA orgs/philanthropists (aspirational: academics & policymakers)
+-   Empirical, applied, helping EA-orgs and EA philanthropists
+-   Incubating various projects, low-touch admin
+-   Fully remote and international, \~US-competitive pay, we hire and want Economics Phds (among others)
+
+::: footer
+\[1\] CEA, Meta-analysis and literature review, Montecarlo Fermi, forecasting, data science, surveys and experiments, psychometrics, policy analysis, reasoning transparency and clear presentation, prediction and \~causal inference, \~modeling markets (esp. animal products)
+:::
+
+------------------------------------------------------------------------
+
+We (want to be) aligned: we optimize for impact,
+
+-   [Model](https://daaronr.github.io/reinstein_web/ea_research_priorities_opportunities_rjs_sc_notes_within.html#/how-research-in-ea-differs-from-research-in-academia-motivations-how-success-is-measured) \~money influenced, key stakeholders
+-   Need to make the case to stakeholders; increasingly seeking less-directed funding
+-   Obstacles: Communication with stakeholders, different expertise ( disagreements about importance of methods), narrow time-horizons
+-   But we are entrepreneurial and pro-active
+
+------------------------------------------------------------------------
+
+**\~All areas of EA/GP; several teams**
+
+1.  **Animal welfare** (farmed and wild): policy, attitudes and experiments, animal sentience/weights, modeling
+2.  **Global health and development**: CEA measurement, scaling, new cause areas, 'shallow evaluations' and reports
+3.  **Survey team**: Movement building (EA survey+), outreach and messaging, social science, experiments and trials, direct support to orgs
+4.  **Longtermism** (including AI): (?)
+
+# My background
 
 ## Basics
 
@@ -30,23 +66,25 @@ format: revealjs
 
 Limited audience...
 
+::: {.fragment .fade-in}
 'How does this inform *government* policy?', 'How does it inform/relate to standard Economics (tractable mathematical) models of optimization?', 'Will this publish well'?
+:::
 
 ## Proto-EA?
 
 ![](images/ft_cartoon.png)
 
+------------------------------------------------------------------------
+
 ![](images/ft_pub.png){width="400"}
 
-## ... 
+------------------------------------------------------------------------
 
 -   'Does one donation come at the expense of another'?
 
 -   Should an 'efficient altruist' purchase 'fair trade' products, bundling consumer choices with additional revenue to poor farmers/workers?
 
 -   Considering ideas with a pre-EA policy audience.
-
-. . .
 
 ------------------------------------------------------------------------
 
@@ -62,15 +100,11 @@ Things I care about: lining up with concepts in the discipline? But I really car
 
 -   Applied microeconomic theory
 
-## innovationsinfundraising.org
-
-![](images/iif_wiki.png){width="400"}
-
 ## Moved to Exeter, UK
 
 -   to pursue 'Impact' (ESRC grant, REF focus)
 
--   Building teaching/research/outreach resources, such as [innovationsinfundraising.org](innovationsinfundraising.org) and ['barriers to effective giving'](https://daaronr.github.io/ea_giving_barriers/index.html)
+-   Building teaching/research/outreach resource like [innovationsinfundraising.org](innovationsinfundraising.org) and ['barriers to effective giving'](https://daaronr.github.io/ea_giving_barriers/index.html)
 
 -   "Researching and writing for Economics students", open science initiatives
 
@@ -98,110 +132,104 @@ UK academia rewards either 'REF-points publications', box-ticking accreditations
 
 ## Rethinking my priorities (eyeroll)
 
--   Discovered EA movement, increasingly working with EAs/EA orgs on effective giving research
+Discovered EA movement, increasingly working with EAs/EA orgs on effective giving research
 
--   Next step, getting involved in data science training consulting: "In the time I spend getting distracted by university and teaching admin., I can earn the same as my UK salary, do the research/impact I want to do in the rest of the time"
+Next step, getting involved in data science training consulting:
 
-    . . .
-
-## RP
-
-![](images/rethink_priorities.png){width="400"}
-
--   Applied to RP, working part-time, consulting PT, pursued external grants
-
--   Grant from LV Philanthropy to pursue 'Barriers to Effective Giving" synthesis and field experiments
-
--   ... "now I can do this Full Time"[^1] ... left secure academic post
-
-[^1]: Pay rises: Now you could \~earn a UK academic salary working even 50% at RP!
-
-## What I'm doing now
-
-0.  Longview-funded: ['Barriers to effective giving'](https://daaronr.github.io/ea_giving_barriers/index.html)
-
--   Categorization and links to Economics and Psychology 'theory'
-
--   Meta-analysis and synthesis
-
--   Field experiments and trials in large-scale contexts
+> In the time I spend getting distracted by university and teaching admin., I can earn the same as my UK salary, do the research/impact I want to do in the rest of the time
 
 ------------------------------------------------------------------------
 
-1.  [EA Survey and 'movement building'](https://rethinkpriorities.github.io/ea_data_public/demog.html)
+![](images/rethink_priorities.png){width="400"}
+
+Applied to RP, working PT, consulting PT, pursued external grants
+
+Grant from LV Philanthropy to pursue 'Barriers to Effective Giving" synthesis and field experiments
+
+... "now I can do this Full Time"\*... left secure academic post
+
+::: footer
+Pay rises: Now you could \~earn a UK academic salary working even 50% at RP!
+:::
+
+# What I'm doing now
+
+## Effective Giving/EAMT
+
+Longview-funded: ['Barriers to effective giving'](https://daaronr.github.io/ea_giving_barriers/index.html) $\rightarrow$ [EA Market testing](https://bit.ly/eamtt) "making more EAs"
+
+-   Advising on promotions, field experiments and trials with GWWC, 80k, others.
+
+-   Research: Meta-analysis and synthesis, field experiments and trials in large-scale contexts [(e.g...)](https://daaronr.github.io/dualprocess/introduction-and-background.html#introduction-and-background); ongoing, ask me
+
+. . .
+
+***But** I did abandon much of my previous (less-EA-relevant) research, struggling to push forward the EA-relevant stuff*
+
+## [EA Survey+, outreach & 'movement building'](https://rethinkpriorities.github.io/ea_data_public/eas_rps_own_style/eas_donations.html) {.smaller}
 
 -   Survey methods: representativeness, survey design
 
 -   Identifying key questions for 'tracking a movement and its impact', e.g.,
 
-    -   "Which people are likely to contribute the most; 'selecting' where to promote'" (ML and inference)
+    -   "Which people are likely to contribute the most; 'selecting' where to promote'" (ML & inference)
     -   "What will the impact of the EA community be in 10-20 years?" (APC modeling)
-    -   Do anticipated donations tend to exceed actual donations and when/why
+    -   Do anticipated donations tend to exceed actual donations and when/why?
 
--   Analysis: Visualization, descriptive, predictive, and
+-   Analysis: Visualization, descriptive, predictive
 
-...
+-   Moving to a data science/open science systematic transparent approach (R/Quarto/Github, clean code)
+
+## Outreach and message testing
+
+-   Representative and targeted surveys
+
+-   Awareness of EA, understanding and receptiveness to parts of EA message
+
+-   Support for policies (e.g., animal welfare, pandemic preparedness)
+
+## Support for other teams and projects
+
+-   Modeling the meat industry; designing behavioral trials
+
+-   How to value income at different starting levels: *real tradeoffs that even the World Bank ignores*
+
+-   [Promoting explicit uncertainty modeling (MonteCarlo) for Cost-effectiveness-analyses](https://effective-giving-marketing.gitbook.io/innovations-in-givewell-esque-ceas/)
+
+-   Connect w/ academia; publishing, recruiting, advising students
+
+# Should you work at RP?
 
 ------------------------------------------------------------------------
 
-2.  Outreach and message testing
-
--   Receptiveness to parts of EA message
-
--   Support for policies (e.g., animal welfare)
-
-3.  Future work: moral weights, measurement of satisfaction, 'near-term' (global health) evaluation, 'shallow reviews'
-
-4.  Support and guidance to other RP projects (e.g., modeling the meat industry; designing behaioural trials)
-
-5.  Connection with academia; publishing, recruiting, advising students
-
-# What's Rethink Priorities?
-
-I assume you know, but in a (big) nutshell
-
--   Research and 'desk research' for EA/Global priorities
--   Quantitative 'measurers': CEA, Meta-analysis and literature review, Montecarlo Fermi, forecasting, data science, surveys and experiments, psychometrics, policy analysis, reasoning transparency and clear presentation, prediction and \~causal inference, \~modeling markets (esp. animal products)
--   Communicating with EAs and EA orgs/philanthropists (aspirational: with academics and policymakers)
--   Empirical, applied, helping EA-orgs and EA philanthropists
--   Incubating various projects, low-touch admin
--   Fully remote and international, \~US-competitive pay, we hire and want Economics Phds (among others)
-
-We (want to be) aligned: we optimize for impact,
-
--   Model \~money influenced, key stakeholders (see slides, vertical scroll down [HERE](https://daaronr.github.io/reinstein_web/ea_research_priorities_opportunities_rjs_sc_notes_within.html#/how-research-in-ea-differs-from-research-in-academia-motivations-how-success-is-measured))
--   Need to make the case to stakeholders; increasingly seeking less-directed funding
--   Obstacles: Communication with stakeholders, different expertise (and disagreements about the importance of technical issues), narrow time-horizons
--   But we are entrepreneurial and pro-active
-
-\~All areas of EA/GP; several teams
-
-1.  Animal welfare (farmed and wild): policy, attitudes and experiments, animal sentience/weights, modeling
-2.  Global health and development: CEA measurement, scaling, new cause areas, 'shallow evaluations' and reports
-3.  Survey team: Movement building (EA survey+), outreach and messaging, social science, experiments and trials, direct support to orgs
-4.  Longtermism (including AI): I'm not so sure what they are up to tbh
-
-# Should you (who should/shouldn't) work at RP
-
-If you are here, probably yes, at least worth pursuing
-
-# How research in EA differs from research in academia (motivations, how success is measured)
-
-## Academia vs EA (Rethink Priorities)
-
-Academia:
-
--   Publications, grants, citations, students placed in jobs, awards
-
--   You need to be 'first to publish' on a new topic; supporting evidence less valued
-
-\
+If you are here probably yes
 
 . . .
 
-RP:
+At least worth pursuing, unless you are interested in pure theory.
 
--   Impact on funds allocated and 'influence' on decisionmakers
+
+. . .
+
+> We don't have job openings right now, but have general interest forms on our website people should definitely submit. If people are interested in AI work, Epoch is hiring (job ad on our page too) 
+
+> careers.rethinkpriorities.org. We should be hiring again for longtermism roles later in the year, so newsletter signup is always a good call to action
+
+
+
+## Academia vs EA (Rethink Priorities) {.smaller}
+
+**Academia**
+
+-   Publications, grants, citations, students $\rightarrow$ jobs, awards
+
+-   You need to be 'first to publish' on a new topic; supporting evidence less valued
+
+. . .
+
+**RP**
+
+-   Impact on funds allocated and 'influence' on DMs
 -   Publications and grants as a means to an end; discussion of how much to publish traditionally versus other outlets
 
 > model estimates impact by considering the probability of our influence targets updating in the correct direction ... amount of money and resources that are changed, how much better (or worse) that change is, the counterfactual years of credit due to the work, and the costs of the project.
@@ -210,18 +238,14 @@ RP:
 
 'How to measure research impact?'
 
-<center>
-
 [![RP impact calculation exercise template](images/rp_impact_calc.png)](https://www.getguesstimate.com/models/17702)
-
-</center>
 
 ```{=html}
 <!--
 knitr::include_url("https://www.getguesstimate.com/models/17702", height = "600px")
 -->
 ```
-## Explained:
+## Explained: {.smaller}
 
 Money-metric impact of a random-ish sample of projects:
 
@@ -243,53 +267,93 @@ $\rightarrow$ "Impact per dollar spent"
 
 $\rightarrow$ Extrapolate to total value of RP
 
-## Changing the game: Ideas for more productive system of peer feedback and credibility
+## Changing the game: 
 
 The EA research landscape - a new 'funder' and consumer of research
 
 . . .
 
-We care about research value, accuracy, and impact, not as mch 'innovation' or theoretical rigor
+We care about research value, accuracy, and impact, not as much 'innovation' or theoretical rigor
 
 . . .
 
 We are not so tied to traditional institutions (publishers, traditional grantmakers)
 
-## 'Evaluated project repo'
+## [Unjournal](bit.ly/eaunjournal)
 
 $\rightarrow$ ['Evaluated project repo'](https://docs.google.com/document/d/1GFISlF5TieCuA6jDYkYlNWaEpuEYrr_zTmaVpTfBg4A/edit#heading=h.iqq0k5uqyg8x) rather than frozen publications?
 
-## *Can we help academia escape the journal publication collective-action problem?*
+*Can we help academia escape the journal publication collective-action problem?*
 
-## Pros/cons of academia vs RP
+. . .
+
+**Plug for participation**
+
+-   What high-quality research is most GP-relevant and needing further assessment?
+
+-   Reviewing, other help
+
+-   Consider 'submitting' your work
+
+## Pros/cons of academia vs RP {.smaller}
 
 **Why RP**
 
--   You want to have an \_impact \_through your research and work → RP is more aligned to impact than academia
+
+-   You want to have an *impact* through your research and work → RP is more aligned to impact than academia
+
 -   Enhance the rigor of EA research (and maybe bring real impact to academia?)
+
+. . .
+
 -   Challenging/interesting methodological and theoretical questions (WIP taster [here](https://rethinkpriorities.github.io/methodology-statistics-design/index.html)) e.g.,
+
     -   How to get a representative sample of a rare population without clear benchmarks
+
     -   "Value of income": Relative tradeoffs among the very poor/less poor
+
+        . . .
+
     -   Cross-price elasticities in systems with bundled goods
+
     -   Correlated uncertainty in Montecarlo simulations
+
     -   A/B testing: Adaptive designs, reinforcement learning, Bayesian inference, design for 'diagnosands'
--   Time and location flexibility (fully remote), good pay and benefits
+
+------------------------------------------------------------------------
+
+::: incremental
+-   Time & location flexibility (fully remote), good pay/benefits
+
 -   Work with *really devoted colleagues*: Virtually no internal politics, gamesmanship, cynicism
--   Non-BS interdisciplinary work: Very strong in data science, psychometrics, analytic philosophy, biology
--   Management *actually* cares about staff
--   No-BS admin
+
 -   Part of EA ecosystem: entrepreneurial impact opportunities, cutting-edge of the conversation
+
+
+\
+
+-   Non-BS interdisciplinary work: Very strong in data science, psychometrics, analytic philosophy, biology
+
+-   Management *actually* cares about staff, no-BS admin
+:::
+
+------------------------------------------------------------------------
 
 **Why *not* work at RP? Who shouldn't? ... not if you want**
 
--   To focus on doing *pure/basic* research, advance specific parts of economic theory and methods
--   Complete research freedom to pursue any topic without justifying it to a stakeholder
--   Advance US/UK government policy in 'non-priority areas'
--   To focus on teaching and be in a university environment
--   To focus solely on economic theory
--   The job security of a US tenured position
+To focus on doing *pure/basic* research, advance specific parts of economic theory and methods
 
+... Complete research freedom to pursue any topic without justifying it to a stakeholder
+
+To focus solely on economic theory
+
+. . .
+
+To advance US/UK government policy in 'non-priority areas'. To focus on teaching and be in a university environment. The job security of a US tenured position
+
+::: footer
 *But still, some of this could be combined with a career at RP, and some of these are not always compatible with academia*
+:::
 
 # Economists at RP: Who are we, what do we do, what will/should we do in future, what skills do you need?
 
@@ -297,7 +361,7 @@ $\rightarrow$ ['Evaluated project repo'](https://docs.google.com/document/d/1GFI
 
 ![](images/paste-E1766609.png)
 
-## Surveys and movement building (Social science, data science)
+## Surveys & movement building (Social science, data science)
 
 ![](images/paste-51C7754F.png)
 
@@ -309,17 +373,37 @@ $\rightarrow$ ['Evaluated project repo'](https://docs.google.com/document/d/1GFI
 
 ![](images/paste-358A7C7D.png)
 
-## Skills you (may) have we can use
+# Some Econ-ish questions at RP
 
-**Most are kind** **of obvious**:
+## Market equilibrium and statics
 
--   Data and statistics, Econometric modeling and causal inference
+![](images/paste-9EDA79B5.png)
 
--   Microeconomics: A clear view on optimization problems and strategic concerns ... reducing problems
+------------------------------------------------------------------------
 
--   Finance: CEA/CBA for causes/interventions, EA movement and RP decisions, Prediction markets
+![](images/paste-25BEA09D.png)
 
--   Development economics
+## Macro, public economics
+
+![](images/paste-38B5C46E.png)
+
+## Welfare Economics, Micro/normative
+
+![](images/paste-158B413F.png)
+
+## Skills you (may) have we can use {.smaller}
+
+*Most are kind of obvious:*
+
+Data and statistics, Econometric modeling and causal inference
+
+Microeconomics: A clear view on optimization problems and strategic concerns ... reducing problems
+
+Finance: CEA for causes/interventions, EA movement & RP decisions, Prediction markets
+
+Development economics
+
+. . .
 
 -   Modeling markets to consider the impact of interventions (especially in Animal welfare, but also for the environment, reducing AI risks, etc.)
 
@@ -327,53 +411,83 @@ $\rightarrow$ ['Evaluated project repo'](https://docs.google.com/document/d/1GFI
 
     -   Theoretical 'possible directions of effect' ... with explanation
 
--   Being able to read and assess the literature!
+-   *Being able to read and assess the literature!*
 
-## Skills/tools you may need at RP that you might miss get in an Econ. PhD
+## Skills/tools you may need at RP that you might miss get in an Econ. PhD {.smaller}
 
-***Caveat***: This is my taste; not everyone at RP prioritizes these. It also depends *which team at RP* you want to join, and what work you want to do
+*Caveat*: This is my taste; not everyone at RP prioritizes these. It also depends *which team at RP* you want to join, and what work you want to do
 
-**Robust measurements for decision-making:** Fermi estimates, Monte-Carlo (explicit uncertainty), forecasting, value of information calculation, cost-effectiveness calculations (actually making the hard choices)
+. . .
 
-**Data science, coding:** R/tidyverse, functional programming and clean coding, Git/Github, Dynamic documents
+Robust measurements for decision-msaking: Fermi estimates, Monte-Carlo (explicit uncertainty), forecasting, value of information calculation, cost-effectiveness calculations (actually making the hard choices)
 
-**Statistics and** **ML:** Bayesian analysis, predictive modeling
+Data science, coding: R/tidyverse, functional programming and clean coding, Git/Github, Dynamic documents
 
-**Experimental and survey design:** Power analysis ('diagnosands'), design for adaptive trials, design for A/B decision-making, survey question design
+Statistics and ML: Bayesian analysis, predictive modeling
 
-**Psychometrics:** Explanatory and confirmatory factor analysis, construct validation
+------------------------------------------------------------------------
 
-**Core but unfashionable Economics:** Modeling input and output markets (especially for animal welfare team)
+Experimental and survey design: Power analysis ('diagnosands'), design for adaptive trials, design for A/B decision-making, survey question design
 
-**Key EA principles and terminology (present audience excepted):** ITN framework, population ethics considerations, longtermism, etc. "Utility" considered in different ways outside economics
+Psychometrics: Explanatory and confirmatory factor analysis, construct validation
 
-**Domain-specific knowledge:** Animal cognition/biology, science of pandemic risks, etc.
+Core but unfashionable Economics: Modeling input and output markets (especially for animal welfare team)
 
-**Writing for stakeholders/EA:** Concise and specific, reasoning transparent, explain technical concepts
+------------------------------------------------------------------------
+
+Key EA principles and terminology (present audience excepted): ITN framework, population ethics considerations, longtermism, etc. "Utility" considered in different ways outside economics
+
+Domain-specific knowledge: Animal cognition/biology, science of pandemic risks, etc.
+
+Writing for stakeholders/EA: Concise and specific, reasoning transparent, explain technical concepts
 
 # FAQ (fervently anticipated questions)
 
-1.  **Do I need a PhD to work at RP? Does it help?**
+1.  Do I need a PhD to work at RP? Does it help?
 
--   No, you don't need it. Yes it will probably help you get hired, and you will use many of the skills gained in the PhD, and perhaps further your PhD research. (But there should be better non-PhD alternatives; [see my post](https://forum.effectivealtruism.org/posts/xcXo2y5fraRoXrrAY/should-you-do-an-economics-phd-or-master-s).)
+. . .
+
+-   No, you don't need it. Yes it will probably help you get hired, will increase your salary, and you will use many of the skills gained in the PhD, and may further your PhD research. (But there should be better non-PhD alternatives; [see my post](https://forum.effectivealtruism.org/posts/xcXo2y5fraRoXrrAY/should-you-do-an-economics-phd-or-master-s).)
+
+------------------------------------------------------------------------
 
 2.  Can I build an 'academic research portfolio' while working at RP?
 
--   If you are self-motivated, yes. You need to put in far more than 40 hours/week to do this in academia... I think you *could* do so just as well as a full-time RP, or maybe a part-time RP. But 'peer pressure and value drift'
+. . .
 
--   I'm pushing to strengthen RP's rigor, connections to academia, and willingness to invest in building methodological and research strength (e.g., shared 'methods books', sabbaticals, internal/external seminars, non-directed funding, the Unjournal project and other peer evaluation/feedback systems)
+If you are self-motivated, yes.
 
-3.  Woul
+::: notes
+You need to put in far more than 40 hours/week to do this in academia... I think you *could* do so just as well as a full-time RP, or maybe a part-time RP. But 'peer pressure and value drift' are important.
+:::
+
+. . .
+
+There are strong opportunities for running field experiments with RP partners, as well as large scale surveys.
+
+Push to strengthen RP's rigor... Shared ['methods books'](https://rethinkpriorities.github.io/methodology-statistics-design/index.html), seminars, sabbaticals, Unjournal, etc.
+
+::: notes
+connections to academia, and willingness to invest in building methodological and research strength. Shared ['methods books'](https://rethinkpriorities.github.io/methodology-statistics-design/index.html), sabbaticals, internal/external seminars, non-directed funding, the Unjournal project and other peer evaluation/feedback systems)
+:::
+
+------------------------------------------------------------------------
+
+3.  Can I pursue my own research/agenda at RP?
+
+-   Not automatically, but your research agenda may align with RP's work anyways
+
+-   And you can make a case for it to funders and stakeholders
 
 # Effective altruism and global priorities
 
 ```{r, echo=FALSE}
 
-knitr::include_url("http://slatestarcodex.com/blog_images/eamap.jpg", height = "500px")
+knitr::include_url("http://slatestarcodex.com/blog_images/eamap.jpg", height = "400px")
 
 ```
 
-## Empirical measurement informs 'production function for good'
+## Empirical measurement informs 'production function for good' {.smaller}
 
 -   'What has value and moral worth?' (e.g., sentience research)
 
@@ -401,7 +515,7 @@ knitr::include_url("http://slatestarcodex.com/blog_images/eamap.jpg", height = "
 
 ------------------------------------------------------------------------
 
-**Empirical (behavioural)** ... How to get people and institutions to care about others (altruism) and about being effective in doing so?\*\*
+**Empirical (behavioural) ... How to get people and institutions to care about others (altruism) and about being effective in doing so?\*\***
 
 [![From barriers to effective giving presentation](images/barriers_presentation_slide.png)?](https://daaronr.github.io/dualprocess/GPI_barriers_evidence_sc.html#/4/3)
 
@@ -411,7 +525,7 @@ knitr::include_url("http://slatestarcodex.com/blog_images/eamap.jpg", height = "
 
 -   Applied work : message testing, information and choice-architecture
 
-# EA perspectives: Why do we need research, what should research do?
+# EA perspectives: Why do we need research, what should research do? {.smaller}
 
 1.  Defining a moral, value and choice framework, working out thorny moral decision-optimization issues
 
@@ -421,7 +535,7 @@ knitr::include_url("http://slatestarcodex.com/blog_images/eamap.jpg", height = "
 
 ------------------------------------------------------------------------
 
-**Defining a moral framework, considering 'what has value', and 'how to learn and choose'?**
+Defining a moral framework, considering 'what has value', and 'how to learn and choose'?
 
 ... how to value things and be consistent, how to use uncertainty and information in making altruistic choices
 
@@ -434,26 +548,3 @@ E.g.,
 -   population ethics
 
 -   moral uncertainty .
-
-## Quarto
-
-Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
-
-## Bullets
-
-When you click the **Render** button a document will be generated that includes:
-
--   Content authored with markdown
--   Output from executable code
-
-# Another first level header
-
-First level again
-
-## Code
-
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-```{r}
-1 + 1
-```
