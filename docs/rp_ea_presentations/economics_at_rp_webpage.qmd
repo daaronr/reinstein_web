@@ -26,7 +26,10 @@ comments:
 
 # References/sources
 
--   This presentation: [bit.ly/econatrp](https://bit.ly/econatrp)
+*Presented at the July 2022 EAecon retreat* 
+
+-   Presentation as RevealJS slides: [bit.ly/econatrp](https://bit.ly/econatrp)
+-   Presentation as readable page: [bit.ly/econatrp](https://bit.ly/econatrp)
 
 -   [Should you do an economics PhD (or master's)?](https://forum.effectivealtruism.org/posts/xcXo2y5fraRoXrrAY/should-you-do-an-economics-phd-or-master-s) (EA Forum)
 

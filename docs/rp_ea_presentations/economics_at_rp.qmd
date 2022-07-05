@@ -1,13 +1,14 @@
 ---
 title: "Economics/Economists at Rethink Priorities "
 author: "David Reinstein"
-format: beamer
+format: revealjs
 fontsize: 10pt
 ---
 
 ## References/sources
 
 -   This presentation: [bit.ly/econatrp](https://bit.ly/econatrp)
+-   Presentation as readable page: [bit.ly/econatrp](https://bit.ly/econatrp)
 
 -   [Should you do an economics PhD (or master's)?](https://forum.effectivealtruism.org/posts/xcXo2y5fraRoXrrAY/should-you-do-an-economics-phd-or-master-s) (EA Forum)
 
@@ -22,15 +23,11 @@ I assume you know, but in a (big) nutshell
 :::
 
 -   Research and 'desk research' for EA/Global priorities
--   Quantitative 'measurers'\^1:
+-   Quantitative 'measurers'^[ CEA, Meta-analysis and literature review, Montecarlo Fermi, forecasting, data science, surveys and experiments, psychometrics, policy analysis, reasoning transparency and clear presentation, prediction and \~causal inference, \~modeling markets (esp. animal products)]
 -   Communicating w/ EAs/EA orgs/philanthropists (aspirational: academics & policymakers)
 -   Empirical, applied, helping EA-orgs and EA philanthropists
 -   Incubating various projects, low-touch admin.
 -   Fully remote and international, \~US-competitive pay, we hire and want Economics Phds (among others)
-
-::: footer
-\[1\] CEA, Meta-analysis and literature review, Montecarlo Fermi, forecasting, data science, surveys and experiments, psychometrics, policy analysis, reasoning transparency and clear presentation, prediction and \~causal inference, \~modeling markets (esp. animal products)
-:::
 
 ------------------------------------------------------------------------
 
