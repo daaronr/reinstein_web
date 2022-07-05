@@ -454,9 +454,9 @@ Writing for stakeholders/EA: Concise and specific, reasoning transparent, explai
 
 If you are self-motivated, yes.
 
-::: notes
-You need to put in far more than 40 hours/week to do this in academia... I think you *could* do so just as well as a full-time RP, or maybe a part-time RP. But 'peer pressure and value drift' are important.
-:::
+. . .
+
+*Notes:* You need to put in far more than 40 hours/week to do this in academia... I think you *could* do so just as well as a full-time RP, or maybe a part-time RP. But 'peer pressure and value drift' are important.
 
 . . .
 
